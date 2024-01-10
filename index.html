@@ -1,0 +1,1418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FT PLANE</title>
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="icon" href="./images/bak-top-svg.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="bg-no-repeat bg-center bg-cover   " style="background-image: url(./dist/images/hero--main-bg.png);">
+        <div class="container px-[12px] max-w-[1320px] mx-auto ">
+            <nav class="py-[20px] flex justify-between items-center">
+                <div class="flex items-center gap-[8px]">
+                    <img class="cursor-pointer" src="./dist/images/ft_plane_logo.png" alt="logo">
+                    <h3 class=" text-[#fff] font-Montserrat text-[22px] font-extrabold leading-[28px] tracking-[1.1px]">
+                        FT
+                        PLANE
+                    </h3>
+                </div>
+                <ul class="flex items-center gap-[50px] max-lg:w-full max-lg:h-full max-lg:absolute  max-lg:bg-[#040528]   max-lg:top-0 max-lg:-left-full max-lg:flex-col max-lg:items-center max-lg:justify-center max-lg:z-10 max-lg:ease-linear max-lg:duration-300"
+                    id="navbar">
+                    <li><a class="text-[#fff] hover:text-[#313EF7] duration-300 text-[16px] font-Montserrat font-semibold leading-[28px] relative after:absolute after:bg-[#313EF7] after:w-0 after:left-[50%] after:h-[2px]  after:bottom-[-10px] hover:after:left-0 hover:after:w-full after:duration-1000"
+                            href="#flight" onclick="opennav()">All
+                            Flight
+                        </a></li>
+                    <li><a class="text-[#fff]  hover:text-[#313EF7] duration-300 text-[16px] font-Montserrat font-semibold leading-[28px]  relative after:absolute after:bg-[#313EF7] after:w-0 after:left-[50%] after:h-[2px]  after:bottom-[-10px] hover:after:left-0 hover:after:w-full after:duration-1000"
+                            href="#Schedule" onclick="opennav()">Schedule
+                        </a></li>
+                    <li><a class="text-[#fff]  hover:text-[#313EF7] duration-300 text-[16px] font-Montserrat font-semibold leading-[28px]  relative after:absolute after:bg-[#313EF7] after:w-0 after:left-[50%] after:h-[2px]  after:bottom-[-10px] hover:after:left-0 hover:after:w-full after:duration-1000"
+                            href=" #Passengers" onclick=" opennav()">Passengers
+                        </a></li>
+                    <li><a class="text-[#fff]  hover:text-[#313EF7] duration-300 text-[16px] font-Montserrat font-semibold leading-[28px]  relative after:absolute after:bg-[#313EF7] after:w-0 after:left-[50%] after:h-[2px]  after:bottom-[-10px] hover:after:left-0 hover:after:w-full after:duration-1000"
+                            href="#Your-Orders" onclick="opennav()">Your
+                            Orders
+                        </a></li>
+                    <li class="">
+                        <button
+                            class="text-[#fff] hover:bg-[#313EF7] duration-300 font-Montserrat text-[16px]  font-semibold leading-[28px] py-[10px] px-[40px] rounded-[59px] border-[1px] border-[#fff]">Let’s
+                            Fly</button>
+                    </li>
+                </ul>
+                <div class="block lg:hidden z-40 mr-[4px] " onclick="opennav()">
+                    <span class="h-1 w-9 bg-[#fff] block "></span>
+                    <span class="my-2 h-1 w-7 bg-[#fff] block"></span>
+                    <span class="h-1 w-5 bg-[#fff] block"></span>
+
+
+                </div>
+
+            </nav>
+
+
+        </div>
+        <!-- container____for--aeroplane -->
+        <div class="container px-[12px] max-w-[1320px] mx-auto">
+            <div class="relative">
+                <div class="flex lg:justify-end justify-center pt-[30px] ">
+                    <h1 class=" lg:text-[110px] xl:text-[117px] xl:tracking-[70px] text-[40px] sm:text-[60px] sm:tracking-[32px] leading-[150%] lg:tracking-[50px] tracking-[10px]  md:tracking-[50px]   font-black text-transparent
+                     text-stroke  uppercase">
+                        Aviation</h1>
+                </div>
+                <div class="absolute lg:top-[23%] lg:left-[1%] xl:left-[6%] top-[54%]">
+
+                    <img src="./dist/images/aerplane.3.svg" alt="aeroplane">
+                </div>
+            </div>
+
+            <p
+                class="text-[#fff] text-center font-Montserrat lg:pt-[231px] pt-[150px] sm:pt-[200px] lg:text-[48px] text-[30px] tracking-[0.72px]  leading-[150%] capitalize font-bold">
+                Travel
+                around the world</p>
+            <p class="text-center font-Inter text-[12px] text-[#ffffffb3] pt-[8px] pb-[189px]">One of the advantages of
+                being
+                disorganized
+                is that one is
+                always having
+                surprising
+                discoveries
+            </p>
+
+        </div>
+    </header>
+
+    <!-- navtabs____sectionss___here -->
+    <section class="bg-[#FCFCFC]" id="flight">
+        <div class="container mx-auto px-[12px] max-w-[1320px]">
+            <div class=" translate-y-[-140px] lg:ml-[47px]  ">
+                <div class="flex tabs">
+                    <button
+                        class="bg-[#FFF]    duration-300 rounded-[20px_0px_0px_0px] border-[1px] border-gray-100   text-[#030522] py-[16px] px-[20px] lg:text-[18px] text-[14px] leading-[28px] font-Montserrat font-bold"
+                        onclick="navtabs('tab1')">Economy</button>
+                    <button
+                        class="bg-[#FFF]  duration-300    border-[1px] border-gray-100  text-[#030522] py-[16px] px-[20px] font-Montserrat lg:text-[18px] text-[14px] leading-[28px] font-bold"
+                        onclick="navtabs('tab2')">Busniness</button>
+                    <button
+                        class="bg-[#FFF]  duration-300 rounded-[0px_20px_0px_0px] border-[1px] border-gray-100   text-[#030522] py-[16px] px-[20px] lg:text-[18px] text-[14px] leading-[28px] font-Montserrat font-bold"
+                        onclick="navtabs('tab3')">First</button>
+                </div>
+                <div
+                    class="max-w-[1200px]   py-[40px] px-[40px] rounded-[0px_20px_20px_20px] bg-[#fff] shadow-[0px_100px_200px_0px_rgba(1,23,54,0.10)]">
+                    <div class="tablets" id="tab1">
+                        <div class="row ">
+                            <!-- first--img-travel -->
+                            <div class="lg:col-3 col-12 sm:col-6 flex  lg:justify-center">
+                                <div class="flex items-center gap-[8px]">
+                                    <div
+                                        class="w-[56px] h-[56px] cursor-pointer rounded-[50%] bg-[#313ef70d] flex justify-center items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none">
+                                            <path
+                                                d="M11.9989 13.4314C13.722 13.4314 15.1189 12.0345 15.1189 10.3114C15.1189 8.58828 13.722 7.19141 11.9989 7.19141C10.2758 7.19141 8.87891 8.58828 8.87891 10.3114C8.87891 12.0345 10.2758 13.4314 11.9989 13.4314Z"
+                                                stroke="#030522" stroke-width="1.5" />
+                                            <path
+                                                d="M3.62166 8.49C5.59166 -0.169998 18.4217 -0.159997 20.3817 8.5C21.5317 13.58 18.3717 17.88 15.6017 20.54C13.5917 22.48 10.4117 22.48 8.39166 20.54C5.63166 17.88 2.47166 13.57 3.62166 8.49Z"
+                                                stroke="#030522" stroke-width="1.5" />
+                                        </svg>
+                                    </div>
+                                    <div class="">
+                                        <h5
+                                            class="text-[#030522]  font-Montserrat text-[18px] font-semibold leading-[150%]">
+                                            Location
+                                        </h5>
+                                        <p
+                                            class="text-[#AEB5BF] xl:text-[16px] font-Montserrat text-[13px] font-normal leading-[28px]">
+                                            Where
+                                            are you
+                                            going?</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- second--img-travel -->
+                            <div class="lg:col-3 col-12 sm:col-6 flex mt-5 sm:mt-0  lg:justify-center">
+                                <div class="flex items-center gap-[8px]">
+                                    <div
+                                        class="w-[56px] cursor-pointer h-[56px] rounded-[50%] bg-[#313ef70d] flex justify-center items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none">
+                                            <path
+                                                d="M12.6786 3.96C13.1586 4.67 13.4386 5.52 13.4386 6.44C13.4286 8.84 11.5386 10.79 9.15859 10.87C9.05859 10.86 8.93859 10.86 8.82859 10.87C6.44859 10.79 4.55859 8.84 4.55859 6.44C4.55859 3.99 6.53859 2 8.99859 2"
+                                                stroke="#030522" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path
+                                                d="M16.4112 4C18.3512 4 19.9112 5.57 19.9112 7.5C19.9112 9.39 18.4113 10.93 16.5413 11C16.4613 10.99 16.3713 10.99 16.2812 11"
+                                                stroke="#030522" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path
+                                                d="M4.15875 14.56C1.73875 16.18 1.73875 18.82 4.15875 20.43C6.90875 22.27 11.4188 22.27 14.1688 20.43C16.5888 18.81 16.5888 16.17 14.1688 14.56C11.4288 12.73 6.91875 12.73 4.15875 14.56Z"
+                                                stroke="#030522" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path
+                                                d="M18.3398 20C19.0598 19.85 19.7398 19.56 20.2998 19.13C21.8598 17.96 21.8598 16.03 20.2998 14.86C19.7498 14.44 19.0798 14.16 18.3698 14"
+                                                stroke="#030522" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                    <div class="">
+                                        <h5
+                                            class="text-[#030522] font-Montserrat text-[18px] font-semibold leading-[150%]">
+                                            Travelers
+                                        </h5>
+                                        <p
+                                            class="text-[#AEB5BF] font-Montserrat text-[16px] font-normal leading-[28px]">
+                                            Add
+                                            guest</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- third--img-travel -->
+                            <div class="lg:col-3 col-12 flex sm:col-6  my-5  lg:justify-center">
+                                <div class="flex items-center gap-[8px]">
+                                    <div
+                                        class="w-[56px] cursor-pointer h-[56px] rounded-[50%] bg-[#313ef70d] flex justify-center items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none">
+                                            <path d="M8 2V5" stroke="#030522" stroke-width="1.5" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M16 2V5" stroke="#030522" stroke-width="1.5" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M3.5 9.08984H20.5" stroke="#030522" stroke-width="1.5"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M3 13.01V8.5C3 5.5 4.5 3.5 8 3.5H16C19.5 3.5 21 5.5 21 8.5V17C21 20 19.5 22 16 22H8C4.5 22 3 20 3 17"
+                                                stroke="#030522" stroke-width="1.5" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M11.9941 13.6992H12.0031" stroke="#030522" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M8.29492 13.6992H8.3039" stroke="#030522" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M8.29492 16.6992H8.3039" stroke="#030522" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                    <div class="">
+                                        <h5
+                                            class="text-[#030522] font-Montserrat text-[18px] font-semibold leading-[150%]">
+                                            Check-in
+                                        </h5>
+                                        <p
+                                            class="text-[#AEB5BF] font-Montserrat text-[16px] font-normal leading-[28px]">
+                                            Add
+                                            date</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- fourth--img-travel -->
+                            <div class="lg:col-3 col-12 sm:col-6 flex  lg:justify-center">
+                                <div class="flex items-center gap-[8px]">
+                                    <div
+                                        class="w-[56px] cursor-pointer h-[56px] rounded-[50%] bg-[#313ef70d] flex justify-center items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none">
+                                            <path d="M8 2V5" stroke="#030522" stroke-width="1.5" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M16 2V5" stroke="#030522" stroke-width="1.5" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M3.5 9.08984H20.5" stroke="#030522" stroke-width="1.5"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M3 13.01V8.5C3 5.5 4.5 3.5 8 3.5H16C19.5 3.5 21 5.5 21 8.5V17C21 20 19.5 22 16 22H8C4.5 22 3 20 3 17"
+                                                stroke="#030522" stroke-width="1.5" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M11.9941 13.6992H12.0031" stroke="#030522" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M8.29492 13.6992H8.3039" stroke="#030522" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M8.29492 16.6992H8.3039" stroke="#030522" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                    <div class="">
+                                        <h5
+                                            class="text-[#030522] font-Montserrat text-[18px] font-semibold leading-[150%]">
+                                            Check-out
+                                        </h5>
+                                        <p
+                                            class="text-[#AEB5BF] font-Montserrat text-[16px] font-normal leading-[28px]">
+                                            Add
+                                            date</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- second----tab---data -->
+                    <div class="tablets" id="tab2">
+                        <div class="row">
+                            <!-- first--img-travel -->
+                            <div class="lg:col-3 sm:col-6 col-12 flex  lg:justify-center">
+                                <div class="flex items-center gap-[8px]">
+                                    <div
+                                        class="w-[56px] cursor-pointer h-[56px] rounded-[50%] bg-[#313ef70d] flex justify-center items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none">
+                                            <path
+                                                d="M12.6786 3.96C13.1586 4.67 13.4386 5.52 13.4386 6.44C13.4286 8.84 11.5386 10.79 9.15859 10.87C9.05859 10.86 8.93859 10.86 8.82859 10.87C6.44859 10.79 4.55859 8.84 4.55859 6.44C4.55859 3.99 6.53859 2 8.99859 2"
+                                                stroke="#030522" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path
+                                                d="M16.4112 4C18.3512 4 19.9112 5.57 19.9112 7.5C19.9112 9.39 18.4113 10.93 16.5413 11C16.4613 10.99 16.3713 10.99 16.2812 11"
+                                                stroke="#030522" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path
+                                                d="M4.15875 14.56C1.73875 16.18 1.73875 18.82 4.15875 20.43C6.90875 22.27 11.4188 22.27 14.1688 20.43C16.5888 18.81 16.5888 16.17 14.1688 14.56C11.4288 12.73 6.91875 12.73 4.15875 14.56Z"
+                                                stroke="#030522" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path
+                                                d="M18.3398 20C19.0598 19.85 19.7398 19.56 20.2998 19.13C21.8598 17.96 21.8598 16.03 20.2998 14.86C19.7498 14.44 19.0798 14.16 18.3698 14"
+                                                stroke="#030522" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                    <div class="">
+                                        <h5
+                                            class="text-[#030522]  font-Montserrat text-[18px] font-semibold leading-[150%]">
+                                            Travelers
+                                        </h5>
+                                        <p
+                                            class="text-[#AEB5BF] font-Montserrat text-[16px] font-normal leading-[28px]">
+                                            Add
+                                            guest</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- second--img-travel -->
+                            <div class="lg:col-3 sm:col-6 col-12 flex mt-5 sm:mt-0 lg:justify-center">
+                                <div class="flex items-center gap-[8px]">
+                                    <div
+                                        class="w-[56px] cursor-pointer h-[56px] rounded-[50%] bg-[#313ef70d] flex justify-center items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none">
+                                            <path
+                                                d="M11.9989 13.4314C13.722 13.4314 15.1189 12.0345 15.1189 10.3114C15.1189 8.58828 13.722 7.19141 11.9989 7.19141C10.2758 7.19141 8.87891 8.58828 8.87891 10.3114C8.87891 12.0345 10.2758 13.4314 11.9989 13.4314Z"
+                                                stroke="#030522" stroke-width="1.5" />
+                                            <path
+                                                d="M3.62166 8.49C5.59166 -0.169998 18.4217 -0.159997 20.3817 8.5C21.5317 13.58 18.3717 17.88 15.6017 20.54C13.5917 22.48 10.4117 22.48 8.39166 20.54C5.63166 17.88 2.47166 13.57 3.62166 8.49Z"
+                                                stroke="#030522" stroke-width="1.5" />
+                                        </svg>
+                                    </div>
+                                    <div class="">
+                                        <h5
+                                            class="text-[#030522] font-Montserrat text-[18px] font-semibold leading-[150%]">
+                                            Location
+                                        </h5>
+                                        <p
+                                            class="text-[#AEB5BF] font-Montserrat text-[14px] xl:text-[16px] font-normal leading-[28px]">
+                                            Where
+                                            are you
+                                            going?</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- third--img-travel -->
+                            <div class="lg:col-3 sm:col-6 col-12 flex my-5   lg:justify-center">
+                                <div class="flex items-center gap-[8px]">
+                                    <div
+                                        class="w-[56px] cursor-pointer h-[56px] rounded-[50%] bg-[#313ef70d] flex justify-center items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none">
+                                            <path d="M8 2V5" stroke="#030522" stroke-width="1.5" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M16 2V5" stroke="#030522" stroke-width="1.5" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M3.5 9.08984H20.5" stroke="#030522" stroke-width="1.5"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M3 13.01V8.5C3 5.5 4.5 3.5 8 3.5H16C19.5 3.5 21 5.5 21 8.5V17C21 20 19.5 22 16 22H8C4.5 22 3 20 3 17"
+                                                stroke="#030522" stroke-width="1.5" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M11.9941 13.6992H12.0031" stroke="#030522" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M8.29492 13.6992H8.3039" stroke="#030522" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M8.29492 16.6992H8.3039" stroke="#030522" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                    <div class="">
+                                        <h5
+                                            class="text-[#030522] font-Montserrat text-[18px] font-semibold leading-[150%]">
+                                            Check-in
+                                        </h5>
+                                        <p
+                                            class="text-[#AEB5BF] font-Montserrat text-[16px] font-normal leading-[28px]">
+                                            Add
+                                            date</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- fourth--img-travel -->
+                            <div class="lg:col-3 sm:col-6 col-12 flex  lg:justify-center">
+                                <div class="flex items-center gap-[8px]">
+                                    <div
+                                        class="w-[56px] cursor-pointer h-[56px] rounded-[50%] bg-[#313ef70d] flex justify-center items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none">
+                                            <path d="M8 2V5" stroke="#030522" stroke-width="1.5" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M16 2V5" stroke="#030522" stroke-width="1.5" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M3.5 9.08984H20.5" stroke="#030522" stroke-width="1.5"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M3 13.01V8.5C3 5.5 4.5 3.5 8 3.5H16C19.5 3.5 21 5.5 21 8.5V17C21 20 19.5 22 16 22H8C4.5 22 3 20 3 17"
+                                                stroke="#030522" stroke-width="1.5" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M11.9941 13.6992H12.0031" stroke="#030522" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M8.29492 13.6992H8.3039" stroke="#030522" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M8.29492 16.6992H8.3039" stroke="#030522" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                    <div class="">
+                                        <h5
+                                            class="text-[#030522] font-Montserrat text-[18px] font-semibold leading-[150%]">
+                                            Check-out
+                                        </h5>
+                                        <p
+                                            class="text-[#AEB5BF] font-Montserrat text-[16px] font-normal leading-[28px]">
+                                            Add
+                                            date</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- third---tab---data -->
+                    <div class="tablets" id="tab3">
+                        <div class="row">
+                            <!-- first--img-travel -->
+                            <div class="lg:col-3 col-12 sm:col-6 flex  lg:justify-center">
+                                <div class="flex items-center gap-[8px]">
+                                    <div
+                                        class="w-[56px] cursor-pointer h-[56px] rounded-[50%] bg-[#313ef70d] flex justify-center items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none">
+                                            <path
+                                                d="M12.6786 3.96C13.1586 4.67 13.4386 5.52 13.4386 6.44C13.4286 8.84 11.5386 10.79 9.15859 10.87C9.05859 10.86 8.93859 10.86 8.82859 10.87C6.44859 10.79 4.55859 8.84 4.55859 6.44C4.55859 3.99 6.53859 2 8.99859 2"
+                                                stroke="#030522" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path
+                                                d="M16.4112 4C18.3512 4 19.9112 5.57 19.9112 7.5C19.9112 9.39 18.4113 10.93 16.5413 11C16.4613 10.99 16.3713 10.99 16.2812 11"
+                                                stroke="#030522" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path
+                                                d="M4.15875 14.56C1.73875 16.18 1.73875 18.82 4.15875 20.43C6.90875 22.27 11.4188 22.27 14.1688 20.43C16.5888 18.81 16.5888 16.17 14.1688 14.56C11.4288 12.73 6.91875 12.73 4.15875 14.56Z"
+                                                stroke="#030522" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path
+                                                d="M18.3398 20C19.0598 19.85 19.7398 19.56 20.2998 19.13C21.8598 17.96 21.8598 16.03 20.2998 14.86C19.7498 14.44 19.0798 14.16 18.3698 14"
+                                                stroke="#030522" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                    <div class="">
+                                        <h5
+                                            class="text-[#030522] font-Montserrat text-[18px] font-semibold leading-[150%]">
+                                            Travelers
+                                        </h5>
+                                        <p
+                                            class="text-[#AEB5BF] font-Montserrat text-[16px] font-normal leading-[28px]">
+                                            Add
+                                            guest</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- second--img-travel -->
+                            <div class="lg:col-3 col-12 sm:col-6 flex mt-5 sm:mt-0   lg:justify-center">
+                                <div class="flex items-center gap-[8px]">
+                                    <div
+                                        class="w-[56px] cursor-pointer h-[56px] rounded-[50%] bg-[#313ef70d] flex justify-center items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none">
+                                            <path
+                                                d="M11.9989 13.4314C13.722 13.4314 15.1189 12.0345 15.1189 10.3114C15.1189 8.58828 13.722 7.19141 11.9989 7.19141C10.2758 7.19141 8.87891 8.58828 8.87891 10.3114C8.87891 12.0345 10.2758 13.4314 11.9989 13.4314Z"
+                                                stroke="#030522" stroke-width="1.5" />
+                                            <path
+                                                d="M3.62166 8.49C5.59166 -0.169998 18.4217 -0.159997 20.3817 8.5C21.5317 13.58 18.3717 17.88 15.6017 20.54C13.5917 22.48 10.4117 22.48 8.39166 20.54C5.63166 17.88 2.47166 13.57 3.62166 8.49Z"
+                                                stroke="#030522" stroke-width="1.5" />
+                                        </svg>
+                                    </div>
+                                    <div class="">
+                                        <h5
+                                            class="text-[#030522] font-Montserrat text-[18px] font-semibold leading-[150%]">
+                                            Location
+                                        </h5>
+                                        <p
+                                            class="text-[#AEB5BF] font-Montserrat text-[14px] xl:text-[16px] font-normal leading-[28px]">
+                                            Where
+                                            are you
+                                            going?</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- third--img-travel -->
+                            <div class="lg:col-3 col-12 sm:col-6 flex my-5 lg:justify-center">
+                                <div class="flex items-center gap-[8px]">
+                                    <div
+                                        class="w-[56px] cursor-pointer h-[56px] rounded-[50%] bg-[#313ef70d] flex justify-center items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none">
+                                            <path d="M8 2V5" stroke="#030522" stroke-width="1.5" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M16 2V5" stroke="#030522" stroke-width="1.5" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M3.5 9.08984H20.5" stroke="#030522" stroke-width="1.5"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M3 13.01V8.5C3 5.5 4.5 3.5 8 3.5H16C19.5 3.5 21 5.5 21 8.5V17C21 20 19.5 22 16 22H8C4.5 22 3 20 3 17"
+                                                stroke="#030522" stroke-width="1.5" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M11.9941 13.6992H12.0031" stroke="#030522" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M8.29492 13.6992H8.3039" stroke="#030522" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M8.29492 16.6992H8.3039" stroke="#030522" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                    <div class="">
+                                        <h5
+                                            class="text-[#030522] font-Montserrat text-[18px] font-semibold leading-[150%]">
+                                            Check-out
+                                        </h5>
+                                        <p
+                                            class="text-[#AEB5BF] font-Montserrat text-[16px] font-normal leading-[28px]">
+                                            Add
+                                            date</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- fourth--img-travel -->
+                            <div class="lg:col-3 col-12 sm:col-6 flex  lg:justify-center">
+                                <div class="flex items-center gap-[8px]">
+                                    <div
+                                        class="w-[56px] cursor-pointer h-[56px] rounded-[50%] bg-[#313ef70d] flex justify-center items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none">
+                                            <path d="M8 2V5" stroke="#030522" stroke-width="1.5" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M16 2V5" stroke="#030522" stroke-width="1.5" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M3.5 9.08984H20.5" stroke="#030522" stroke-width="1.5"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M3 13.01V8.5C3 5.5 4.5 3.5 8 3.5H16C19.5 3.5 21 5.5 21 8.5V17C21 20 19.5 22 16 22H8C4.5 22 3 20 3 17"
+                                                stroke="#030522" stroke-width="1.5" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M11.9941 13.6992H12.0031" stroke="#030522" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M8.29492 13.6992H8.3039" stroke="#030522" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M8.29492 16.6992H8.3039" stroke="#030522" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                    <div class="">
+                                        <h5
+                                            class="text-[#030522] font-Montserrat text-[18px] font-semibold leading-[150%]">
+                                            Check-in
+                                        </h5>
+                                        <p
+                                            class="text-[#AEB5BF] font-Montserrat text-[16px] font-normal leading-[28px]">
+                                            Add
+                                            date</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center mt-[24px]">
+                        <button
+                            class="text-[#fff]  shadow-[0px_10px_14px_0px_rgba(49,62,247,0.25)] hover:text-[#313EF7] bg-[#313EF7] hover:bg-[#fff] duration-300 border-[1px] py-[14px] px-[45px] font-Montserrat text-[16px] font-semibold leading-[28px] rounded-[56px]">Book
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- navtabs____sectionss___here -->
+
+
+    <!--------------- our_feature__section___here-------- -->
+    <section class="bg-[#FCFCFC]">
+        <div class="container mx-auto px-[12px] max-w-[1320px]">
+            <h2
+                class="text-[#030522] text-center font-Montserrat text-[40px]  font-bold leading-[150%] tracking-[0.6px] capitalize ">
+                Our Features
+            </h2>
+            <div class="row pb-[50px] lg:pb-[100px] pt-[40px] items-start">
+                <div class="lg:col-3 sm:col-6 md:col-4 col-12 mt-[30px] flex justify-center  ">
+                    <div
+                        class="max-w-[281.633px] w-full py-[42px] px-[21px] rounded-[185px] bg-[#fff] shadow-[0px_100px_200px_0px_rgba(1,23,54,0.10)] flex justify-center flex-col gap-[16px]">
+                        <div class="flex justify-center">
+                            <div
+                                class="w-[70px] h-[70px] bg-[#313ef70d] rounded-[50%] flex justify-center items-center ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40"
+                                    fill="none">
+                                    <g clip-path="url(#clip0_2_7419)">
+                                        <path
+                                            d="M32.5741 34.1517C32.5231 34.1517 32.4716 34.1463 32.4209 34.1362C32.3715 34.1258 32.3223 34.1112 32.2747 34.0916C32.2277 34.0721 32.1826 34.048 32.1404 34.0196C32.0974 33.9909 32.0574 33.9589 32.0214 33.922C31.9857 33.8862 31.9528 33.8463 31.9247 33.8042C31.8957 33.7611 31.8722 33.7157 31.8527 33.669C31.8331 33.622 31.8176 33.5728 31.8075 33.5228C31.7974 33.4721 31.7928 33.4212 31.7928 33.3696C31.7928 33.3189 31.7974 33.2673 31.8075 33.2173C31.8176 33.1673 31.8325 33.1181 31.8521 33.0711C31.8716 33.0235 31.8957 32.9783 31.9238 32.9362C31.9528 32.8932 31.9857 32.8532 32.0214 32.8172C32.0574 32.7815 32.0974 32.7486 32.1404 32.7205C32.1826 32.6924 32.2277 32.668 32.2747 32.6485C32.3223 32.6289 32.3715 32.6143 32.4209 32.6042C32.5225 32.5838 32.6254 32.5838 32.7264 32.6042C32.7764 32.6143 32.8256 32.6289 32.8723 32.6485C32.9199 32.668 32.9653 32.6924 33.0074 32.7205C33.0505 32.7486 33.0901 32.7815 33.1262 32.8172C33.1622 32.8532 33.1951 32.8932 33.2232 32.9362C33.2513 32.9783 33.2754 33.0235 33.2949 33.0711C33.3145 33.1181 33.3294 33.1673 33.3395 33.2173C33.3495 33.2673 33.355 33.3189 33.355 33.3696C33.355 33.4212 33.3495 33.4721 33.3395 33.5228C33.3294 33.5728 33.3145 33.622 33.2949 33.669C33.2754 33.7157 33.2513 33.7611 33.2232 33.8042C33.1951 33.8463 33.1622 33.8862 33.1262 33.922C33.0901 33.9589 33.0505 33.9909 33.0074 34.0196C32.9653 34.0477 32.9199 34.0721 32.8723 34.0916C32.8256 34.1112 32.7764 34.1261 32.7264 34.1362C32.6763 34.1463 32.6248 34.1517 32.5741 34.1517Z"
+                                            fill="#030522" />
+                                        <path
+                                            d="M21.678 24.995H19.5085C19.2745 24.995 19.0526 24.89 18.9043 24.7087C18.756 24.5278 18.6965 24.2894 18.7426 24.0599L19.4728 20.4189H16.1428L15.0582 21.3225C14.9178 21.4397 14.7408 21.5035 14.5583 21.5035H12.3885C12.1294 21.5035 11.8871 21.375 11.7418 21.1605C11.5963 20.9456 11.567 20.6731 11.6631 20.4323L12.632 18.0104L11.6631 15.5886C11.567 15.3478 11.5963 15.0753 11.7418 14.8604C11.8871 14.6459 12.1294 14.5171 12.3885 14.5171H14.5583C14.7408 14.5171 14.9178 14.5812 15.0582 14.6984L16.1428 15.602H19.4728L18.7426 11.9609C18.6965 11.7311 18.756 11.4931 18.9043 11.3121C19.0526 11.1309 19.2745 11.0259 19.5085 11.0259H21.678C21.949 11.0259 22.2008 11.1663 22.343 11.397L24.9376 15.602H27.6445C28.9727 15.602 30.053 16.6823 30.053 18.0104C30.053 19.3386 28.9727 20.4189 27.6445 20.4189H24.9376L22.343 24.6239C22.2008 24.8546 21.949 24.995 21.678 24.995ZM20.4622 23.4325H21.2422L23.8369 19.2275C23.9791 18.9968 24.2308 18.8564 24.5018 18.8564H27.6445C28.1111 18.8564 28.4905 18.4771 28.4905 18.0104C28.4905 17.5438 28.1111 17.1645 27.6445 17.1645H24.5018C24.2308 17.1645 23.9794 17.0241 23.8369 16.7934L21.2422 12.5884H20.4622L21.1925 16.2294C21.2386 16.4592 21.1791 16.6973 21.0308 16.8785C20.8824 17.0595 20.6606 17.1645 20.4265 17.1645H15.8602C15.6774 17.1645 15.5004 17.1004 15.36 16.9835L14.2754 16.0796H13.5427L14.1988 17.7202C14.2733 17.9067 14.2733 18.1145 14.1988 18.3007L13.5427 19.9413H14.2754L15.36 19.0377C15.5004 18.9205 15.6774 18.8564 15.8602 18.8564H20.4265C20.6606 18.8564 20.8824 18.9617 21.0308 19.1426C21.1791 19.3236 21.2386 19.562 21.1925 19.7914L20.4622 23.4325Z"
+                                            fill="#030522" />
+                                        <path
+                                            d="M29.128 33.7224H12.5292C12.098 33.7224 11.7479 33.3726 11.7479 32.9411V28.1367C11.7479 27.7052 12.098 27.3555 12.5292 27.3555H29.128C29.5595 27.3555 29.9092 27.7052 29.9092 28.1367V32.9411C29.9092 33.3726 29.5595 33.7224 29.128 33.7224ZM13.3104 32.1599H28.3467V28.918H13.3104V32.1599Z"
+                                            fill="#030522" />
+                                        <path
+                                            d="M36.4834 1.56342H33.3563V0.78125C33.3563 0.349731 33.0062 0 32.575 0H7.39374C5.70551 0 4.33191 1.37329 4.33191 3.06152V36.9382C4.33191 38.6264 5.7052 40 7.39343 40H36.4834C36.9149 40 37.2647 39.6503 37.2647 39.2188V2.34467C37.2647 1.91315 36.9149 1.56342 36.4834 1.56342ZM31.7935 1.5625V10.9662L29.5919 9.92828C29.381 9.8288 29.1369 9.8288 28.926 9.92798L26.7184 10.9671V1.5625H31.7935ZM35.7022 38.4375H9.86505V6.74316C9.86505 6.31165 9.51532 5.96191 9.0838 5.96191C8.65228 5.96191 8.30255 6.31165 8.30255 6.74316V38.4375H7.39374C6.56702 38.4375 5.89441 37.7649 5.89441 36.9382V3.06152C5.89441 2.23511 6.56702 1.5625 7.39374 1.5625H25.1559V12.1985C25.1559 12.4658 25.2929 12.7145 25.5187 12.858C25.6457 12.9385 25.7913 12.9797 25.9374 12.9797C26.0507 12.9797 26.1642 12.955 26.2701 12.9053L29.2584 11.4984L31.7935 12.6938V29.5807C31.7935 30.0122 32.1435 30.3619 32.5747 30.3619C33.0062 30.3619 33.356 30.0122 33.356 29.5807V3.12592H35.7022V38.4375Z"
+                                            fill="#030522" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2_7419">
+                                            <rect width="40" height="40" fill="white" transform="translate(0.816284)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <!-- text__here -->
+                        <div>
+                            <h6
+                                class="text-[#030522] font-Montserrat text-[22px] xl:text-[24px] font-extrabold leading-[150%] text-center">
+                                Best Guide
+                            </h6>
+                            <p
+                                class="tex-[#030522a6] pt-[10px] text-center font-Montserrat text-[16px] font-normal leading-[150%]">
+                                Suspendisse
+                                ultrices nibh
+                                non
+                                cursus
+                                sagittis. Morbi
+                                dictum consequat
+                                ex, quis
+                                finibus magna.
+                            </p>
+                        </div>
+                        <!-- arrow_sigm -->
+                        <div class="flex justify-center pt-[16px]">
+                            <div
+                                class="w-[50px] h-[50px] group hover:bg-white cursor-pointer duration-300 border-[1px] bg-[#030522] flex justify-center items-center rounded-[50%] ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="27" height="16" viewBox="0 0 27 16"
+                                    fill="none">
+                                    <path class="group-hover:stroke-black"
+                                        d="M26.5843 9.04001C26.9748 8.64948 26.9748 8.01632 26.5843 7.6258L20.2204 1.26184C19.8298 0.871311 19.1967 0.871311 18.8061 1.26184C18.4156 1.65236 18.4156 2.28552 18.8061 2.67605L24.463 8.3329L18.8061 13.9898C18.4156 14.3803 18.4156 15.0134 18.8061 15.404C19.1967 15.7945 19.8298 15.7945 20.2204 15.404L26.5843 9.04001ZM25.8772 7.3329H0.421369L0.42137 9.3329H25.8772L25.8772 7.3329Z"
+                                        fill="white" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- second__box -->
+                <div class="lg:col-3 sm:col-6 md:col-4 col-12 mt-[30px] lg:mt-0 flex justify-center ">
+                    <div
+                        class="max-w-[281.633px] w-full  py-[42px] px-[21px] rounded-[185px] bg-[#fff] shadow-[0px_100px_200px_0px_rgba(1,23,54,0.10)] flex justify-center flex-col gap-[16px]">
+                        <div class="flex justify-center">
+                            <div
+                                class="w-[70px] h-[70px] bg-[#313ef70d] rounded-[50%] flex justify-center items-center ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40"
+                                    fill="none">
+                                    <g clip-path="url(#clip0_2_7434)">
+                                        <path
+                                            d="M38.2783 20.5182C38.1173 20.1889 38.1173 19.8113 38.2783 19.4821L39.7701 16.4301C40.6008 14.7308 39.9426 12.7055 38.2719 11.819L35.2711 10.2268C34.9474 10.0551 34.7254 9.74946 34.662 9.38861L34.0752 6.04261C33.7484 4.17965 32.0251 2.92779 30.1527 3.19271L26.7892 3.66848C26.4262 3.71973 26.0672 3.60302 25.8038 3.34825L23.3623 0.986391C22.0029 -0.328758 19.8732 -0.328836 18.5139 0.986391L16.0723 3.34849C15.8089 3.60333 15.4499 3.71981 15.0869 3.66872L11.7234 3.19294C9.85039 2.92786 8.12775 4.17989 7.80095 6.04285L7.21408 9.38869C7.15072 9.74962 6.92877 10.0552 6.6051 10.227L3.60434 11.8191C1.93356 12.7055 1.27544 14.7311 2.10606 16.4304L3.59785 19.4822C3.75879 19.8115 3.75879 20.1892 3.59785 20.5184L2.10598 23.5702C1.27536 25.2695 1.93349 27.2949 3.60426 28.1814L6.60502 29.7736C6.92877 29.9453 7.15072 30.2509 7.21408 30.6118L7.80095 33.9578C8.09845 35.6537 9.55266 36.8431 11.224 36.8429C11.3886 36.8429 11.5556 36.8313 11.7235 36.8076L15.087 36.3318C15.4497 36.2803 15.809 36.3973 16.0724 36.652L18.5139 39.0139C19.1937 39.6716 20.0657 40.0003 20.9381 40.0002C21.8102 40.0002 22.6827 39.6714 23.3623 39.0139L25.8038 36.652C26.0672 36.3973 26.4263 36.2809 26.7892 36.3318L30.1527 36.8076C32.026 37.0726 33.7484 35.8206 34.0752 33.9577L34.6621 30.6118C34.7255 30.2509 34.9474 29.9454 35.2711 29.7736L38.2719 28.1814C39.9426 27.295 40.6008 25.2695 39.7701 23.5702L38.2783 20.5182ZM37.1905 26.1434L34.1898 27.7355C33.2331 28.2433 32.5769 29.1462 32.3898 30.2131L31.8029 33.559C31.6924 34.1893 31.1096 34.6127 30.4758 34.5232L27.1123 34.0474C26.0397 33.8955 24.9783 34.2407 24.1998 34.9938L21.7582 37.3556C21.2984 37.8004 20.5778 37.8004 20.1178 37.3556L17.6764 34.9937C17.0184 34.3572 16.1582 34.0123 15.2603 34.0123C15.0958 34.0123 14.9299 34.0239 14.7638 34.0474L11.4003 34.5231C10.767 34.6127 10.1838 34.1892 10.0732 33.5589L9.48625 30.2129C9.29907 29.1461 8.64298 28.243 7.68619 27.7355L4.68542 26.1433C4.12011 25.8434 3.89746 25.1581 4.17847 24.5832L5.67034 21.5313C6.14596 20.5582 6.14596 19.4421 5.67034 18.4689L4.17847 15.417C3.89746 14.8421 4.12011 14.1569 4.68542 13.8569L7.68619 12.2648C8.6429 11.757 9.29907 10.8541 9.48618 9.7872L10.073 6.44128C10.1837 5.81097 10.7663 5.38754 11.4001 5.47707L14.7636 5.95285C15.8359 6.10464 16.8977 5.75957 17.6762 5.00652L20.1178 2.64466C20.5776 2.19982 21.2981 2.19982 21.7581 2.64466L24.1996 5.00652C24.9781 5.75964 26.0397 6.10464 27.1122 5.95285L30.4757 5.47707C31.109 5.38746 31.6922 5.81097 31.8028 6.44128L32.3896 9.78728C32.5768 10.8541 33.2329 11.7572 34.1897 12.2648L37.1905 13.8569C37.7558 14.1569 37.9784 14.8421 37.6974 15.417L36.2055 18.4689C35.7299 19.4419 35.7299 20.5582 36.2055 21.5312L37.6974 24.583C37.9785 25.1581 37.7559 25.8434 37.1905 26.1434Z"
+                                            fill="black" />
+                                        <path
+                                            d="M29.3679 11.5712C28.9175 11.1208 28.187 11.1208 27.7366 11.5712L12.5109 26.7969C12.0605 27.2474 12.0605 27.9778 12.5109 28.4283C12.7362 28.6535 13.0314 28.7661 13.3266 28.7661C13.6217 28.7661 13.917 28.6536 14.1422 28.4283L29.3678 13.2026C29.8184 12.7521 29.8184 12.0218 29.3679 11.5712Z"
+                                            fill="black" />
+                                        <path
+                                            d="M16.3247 9.61841C13.9925 9.61841 12.0951 11.5158 12.0951 13.848C12.0951 16.1802 13.9925 18.0776 16.3247 18.0776C18.6569 18.0776 20.5543 16.1802 20.5543 13.848C20.5543 11.5158 18.6569 9.61841 16.3247 9.61841ZM16.3247 15.7705C15.2646 15.7705 14.4022 14.9081 14.4022 13.8479C14.4022 12.7878 15.2646 11.9254 16.3247 11.9254C17.3847 11.9254 18.2472 12.7878 18.2472 13.8479C18.2472 14.9081 17.3847 15.7705 16.3247 15.7705Z"
+                                            fill="black" />
+                                        <path
+                                            d="M25.5531 21.9224C23.2209 21.9224 21.3235 23.8198 21.3235 26.1519C21.3235 28.4841 23.2209 30.3815 25.5531 30.3815C27.8852 30.3815 29.7827 28.4841 29.7827 26.1519C29.7827 23.8198 27.8852 21.9224 25.5531 21.9224ZM25.5531 28.0744C24.493 28.0744 23.6305 27.212 23.6305 26.1519C23.6305 25.0919 24.4929 24.2295 25.5531 24.2295C26.6131 24.2295 27.4756 25.0919 27.4756 26.1519C27.4756 27.212 26.6131 28.0744 25.5531 28.0744Z"
+                                            fill="black" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2_7434">
+                                            <rect width="40" height="40" fill="white" transform="translate(0.938721)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <!-- text__here -->
+                        <div>
+                            <h6
+                                class="text-[#030522] font-Montserrat text-[22px] xl:text-[24px] font-extrabold leading-[150%] text-center">
+                                More Discount
+                            </h6>
+                            <p
+                                class="tex-[#030522a6] pt-[10px] text-center font-Montserrat text-[16px] font-normal leading-[150%]">
+                                Suspendisse
+                                ultrices nibh
+                                non
+                                cursus
+                                sagittis. Morbi
+                                dictum consequat
+                                ex, quis
+                                finibus magna.
+                            </p>
+                        </div>
+                        <!-- arrow_sigm -->
+                        <div class="flex justify-center pt-[16px]">
+                            <div
+                                class="w-[50px] h-[50px] group border-[1px] hover:bg-white duration-300 cursor-pointer bg-[#030522] flex justify-center items-center rounded-[50%] ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="27" height="16" viewBox="0 0 27 16"
+                                    fill="none">
+                                    <path class="group-hover:stroke-black"
+                                        d="M26.5843 9.04001C26.9748 8.64948 26.9748 8.01632 26.5843 7.6258L20.2204 1.26184C19.8298 0.871311 19.1967 0.871311 18.8061 1.26184C18.4156 1.65236 18.4156 2.28552 18.8061 2.67605L24.463 8.3329L18.8061 13.9898C18.4156 14.3803 18.4156 15.0134 18.8061 15.404C19.1967 15.7945 19.8298 15.7945 20.2204 15.404L26.5843 9.04001ZM25.8772 7.3329H0.421369L0.42137 9.3329H25.8772L25.8772 7.3329Z"
+                                        fill="white" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- third__box -->
+                <div class="lg:col-3 sm:col-6 md:col-4 col-12 mt-[30px] flex justify-center ">
+                    <div
+                        class="max-w-[281.633px] w-full py-[42px] px-[21px] rounded-[185px] bg-[#fff] shadow-[0px_100px_200px_0px_rgba(1,23,54,0.10)] flex justify-center flex-col gap-[16px]">
+                        <div class="flex justify-center">
+                            <div
+                                class="w-[70px] h-[70px] bg-[#313ef70d] rounded-[50%] flex justify-center items-center ">
+                                <svg width="41" height="40" viewBox="0 0 41 40" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M33.7129 29.2668C34.2649 29.2668 34.7129 28.8188 34.7129 28.2668V19.5468C34.7115 18.4802 33.8462 17.6148 32.7795 17.6135H30.5275V10.8002C30.5222 5.0215 25.8395 0.338829 20.0609 0.333496C14.2822 0.338829 9.59954 5.0215 9.59421 10.8002V17.6068H7.34221C6.27554 17.6082 5.41021 18.4735 5.40887 19.5402V34.7922C5.41154 37.4828 7.59287 39.6642 10.2835 39.6668H29.8382C32.5289 39.6642 34.7102 37.4828 34.7129 34.7922C34.7129 34.2402 34.2649 33.7922 33.7129 33.7922C33.1609 33.7922 32.7129 34.2402 32.7129 34.7922C32.7102 36.3788 31.4249 37.6642 29.8382 37.6668H10.2835C8.69687 37.6642 7.41154 36.3788 7.40887 34.7922L7.34221 19.6068H10.5942C11.1462 19.6068 11.5942 19.1588 11.5942 18.6068V10.8002C11.9835 -0.40117 28.1382 -0.402504 28.5275 10.8002V17.6068H17.3942C16.8422 17.6068 16.3942 18.0548 16.3942 18.6068C16.3942 19.1588 16.8422 19.6068 17.3942 19.6068C19.9502 19.5935 30.3849 19.5562 32.7129 19.5402V28.2668C32.7129 28.8188 33.1609 29.2668 33.7129 29.2668Z"
+                                        fill="#030522" />
+                                    <path
+                                        d="M17.8561 28.6359C17.9055 31.5346 22.2175 31.5346 22.2668 28.6359C22.2175 25.7372 17.9055 25.7372 17.8561 28.6359Z"
+                                        fill="#030522" />
+                                </svg>
+
+                            </div>
+                        </div>
+                        <!-- text__here -->
+                        <div>
+                            <h6
+                                class="text-[#030522] font-Montserrat text-[22px] xl:text-[24px] font-extrabold leading-[150%] text-center">
+                                Private
+                            </h6>
+                            <p
+                                class="tex-[#030522a6] pt-[10px] text-center font-Montserrat text-[16px] font-normal leading-[150%]">
+                                Suspendisse
+                                ultrices nibh
+                                non
+                                cursus
+                                sagittis. Morbi
+                                dictum consequat
+                                ex, quis
+                                finibus magna.
+                            </p>
+                        </div>
+                        <!-- arrow_sigm -->
+                        <div class="flex justify-center pt-[16px]">
+                            <div
+                                class="w-[50px] h-[50px] group border-[1px] hover:bg-white duration-300 cursor-pointer bg-[#030522] flex justify-center items-center rounded-[50%] ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="27" height="16" viewBox="0 0 27 16"
+                                    fill="none">
+                                    <path class="group-hover:stroke-black"
+                                        d="M26.5843 9.04001C26.9748 8.64948 26.9748 8.01632 26.5843 7.6258L20.2204 1.26184C19.8298 0.871311 19.1967 0.871311 18.8061 1.26184C18.4156 1.65236 18.4156 2.28552 18.8061 2.67605L24.463 8.3329L18.8061 13.9898C18.4156 14.3803 18.4156 15.0134 18.8061 15.404C19.1967 15.7945 19.8298 15.7945 20.2204 15.404L26.5843 9.04001ZM25.8772 7.3329H0.421369L0.42137 9.3329H25.8772L25.8772 7.3329Z"
+                                        fill="white" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- fourth__box -->
+                <div
+                    class="lg:col-3 sm:col-6 md:col-12 col-12  mt-[30px] lg:mt-0 max-w-[992px]:flex justify-center flex ">
+                    <div
+                        class="max-w-[281.633px] w-full  py-[42px] px-[21px] rounded-[185px] bg-[#fff] shadow-[0px_100px_200px_0px_rgba(1,23,54,0.10)] flex justify-center flex-col gap-[16px]">
+                        <div class="flex justify-center">
+                            <div
+                                class="w-[70px] h-[70px] bg-[#313ef70d] rounded-[50%] flex justify-center items-center ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40"
+                                    fill="none">
+                                    <g clip-path="url(#clip0_2_7471)">
+                                        <path
+                                            d="M37.9679 16.6531C37.1693 16.1596 36.2803 16.0591 35.4962 16.1363V15.3125C35.4962 6.8907 28.6045 0 20.1837 0C11.7619 0 4.87122 6.89172 4.87122 15.3125V16.1363C4.08715 16.0591 3.19809 16.1596 2.39958 16.6531C0.929185 17.5619 0.183716 19.4765 0.183716 22.3438C0.183716 25.2158 0.930591 27.1405 2.40364 28.0647C3.13536 28.5238 3.98989 28.6832 4.87122 28.6074V29.4531C4.87122 30.1003 5.3959 30.625 6.04309 30.625H10.7306C11.3778 30.625 11.9025 30.1003 11.9025 29.4531V15.3125C11.9025 14.6653 11.3778 14.1406 10.7306 14.1406H7.26848C7.86286 7.5368 13.4278 2.34375 20.1837 2.34375C26.9397 2.34375 32.5046 7.5368 33.0989 14.1406H29.6368C28.9897 14.1406 28.465 14.6653 28.465 15.3125V29.4531C28.465 30.1003 28.9897 30.625 29.6368 30.625H33.1525V31.7969C33.1525 33.7354 31.5754 35.3125 29.6368 35.3125H25.8415C25.3578 33.9486 24.0552 32.9688 22.5275 32.9688H20.1837C18.2452 32.9688 16.6681 34.5459 16.6681 36.4844C16.6681 38.4229 18.2452 40 20.1837 40H22.5275C24.0552 40 25.3578 39.0202 25.8415 37.6562H29.6368C32.8677 37.6562 35.4962 35.0277 35.4962 31.7969C35.4962 30.3695 35.4962 29.5337 35.4962 28.6073C36.3776 28.6831 37.2322 28.5236 37.9638 28.0646C39.4368 27.1405 40.1837 25.2158 40.1837 22.3438C40.1837 19.4765 39.4382 17.5619 37.9679 16.6531ZM4.87122 26.2485C4.49731 26.3136 4.02997 26.3181 3.64918 26.0792C2.92583 25.6255 2.52747 24.2988 2.52747 22.3438C2.52747 20.4074 2.91692 19.0962 3.62403 18.6516C4.00637 18.4112 4.48809 18.4284 4.87122 18.504V26.2485ZM9.55872 16.4844V28.2812H7.21497V16.4844H9.55872ZM22.5275 37.6562H20.1837C19.5375 37.6562 19.0118 37.1305 19.0118 36.4844C19.0118 35.8382 19.5375 35.3125 20.1837 35.3125H22.5275C23.1736 35.3125 23.6993 35.8382 23.6993 36.4844C23.6993 37.1305 23.1736 37.6562 22.5275 37.6562ZM33.1525 28.2812H30.8087V16.4844H33.1525V28.2812ZM36.7266 26.074C36.3479 26.3158 35.8754 26.3111 35.4962 26.2454V18.5041C35.8793 18.4284 36.361 18.4113 36.7434 18.6517C37.4505 19.0962 37.84 20.4074 37.84 22.3438C37.84 24.2909 37.4445 25.6156 36.7266 26.074Z"
+                                            fill="#030522" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2_7471">
+                                            <rect width="40" height="40" fill="white" transform="translate(0.183716)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                        <!-- text__here -->
+                        <div>
+                            <h6
+                                class="text-[#030522] font-Montserrat text-[22px] xl:text-[24px] font-extrabold leading-[150%] text-center">
+                                Online Support
+                            </h6>
+                            <p
+                                class="tex-[#030522a6] pt-[10px] text-center font-Montserrat text-[16px] font-normal leading-[150%]">
+                                Suspendisse
+                                ultrices nibh
+                                non
+                                cursus
+                                sagittis. Morbi
+                                dictum consequat
+                                ex, quis
+                                finibus magna.
+                            </p>
+                        </div>
+                        <!-- arrow_sigm -->
+                        <div class="flex justify-center pt-[16px]">
+                            <div
+                                class="w-[50px] h-[50px] cursor-pointer group border-[1px] hover:bg-white duration-300 bg-[#030522] flex justify-center items-center rounded-[50%] ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="27" height="16" viewBox="0 0 27 16"
+                                    fill="none">
+                                    <path class="group-hover:stroke-black"
+                                        d="M26.5843 9.04001C26.9748 8.64948 26.9748 8.01632 26.5843 7.6258L20.2204 1.26184C19.8298 0.871311 19.1967 0.871311 18.8061 1.26184C18.4156 1.65236 18.4156 2.28552 18.8061 2.67605L24.463 8.3329L18.8061 13.9898C18.4156 14.3803 18.4156 15.0134 18.8061 15.404C19.1967 15.7945 19.8298 15.7945 20.2204 15.404L26.5843 9.04001ZM25.8772 7.3329H0.421369L0.42137 9.3329H25.8772L25.8772 7.3329Z"
+                                        fill="white" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ---------lets____fly--------section---- -->
+    <section class="bg-[#FCFCFC]" id="Schedule">
+        <div class="container mx-auto px-[12px] max-w-[1320px]">
+            <div class="row pb-[100px] ">
+                <div class="col-12 lg:col-6 flex justify-center lg:justify-start">
+                    <img class="" src="./dist/images/lets_fly_img.png" alt="lets_fly_img">
+                </div>
+                <div class="col-12 lg:col-6 mt-[30px] ">
+                    <div class="flex items-center gap-[15px]">
+                        <h4 class="text-[#313EF7] font-Montserrat text-[20px] leading-[24px] font-black">Let’s Fly</h4>
+                        <svg class="hidden md:block" xmlns="http://www.w3.org/2000/svg" width="483" height="2"
+                            viewBox="0 0 483 2" fill="none">
+                            <path d="M0 1L483 1.00004" stroke="#E5E7EB" stroke-width="2" stroke-dasharray="5 5" />
+                        </svg>
+                    </div>
+                    <h6 class="text-[#030303] font-Montserrat text-[32px] font-bold leading-[45px] pt-[16px]">It’s one
+                        of the
+                        leading online
+                        flight
+                        booking
+                        platforms
+                        in the world</h6>
+
+                    <!-- ====----------- timeline____here---------- -->
+                    <!-- <ol class="relative h-[140px] border-s-2 border-dashed  border-[#E5E7EB] mt-[40px]">
+                        <li class="mb-[10px] ml-[10px]">
+                            <span class="absolute   -left-[1%] top-[4%] ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"
+                                    fill="none">
+                                    <circle cx="5" cy="5" r="5" fill="#313EF7" />
+                                </svg>
+                            </span>
+                            <p
+                                class="flex items-center text-[#030303] font-Montserrat text-[16px] leading-[28px] font-medium">
+                                Contrary to popular belief, Lorem Ipsum is not simply random text
+                            </p>
+
+                        </li>
+                        <li class="mb-[10px] ml-[10px]">
+                            <span class="absolute -left-[1%] top-[24%] ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"
+                                    fill="none">
+                                    <circle cx="5" cy="5" r="5" fill="#313EF7" />
+                                </svg>
+                            </span>
+                            <p class="mb-1 text-[#030303] font-Montserrat text-[16px] leading-[28px] font-medium">If you
+                                are going to use
+                                a passage of Lorem Ipsum
+                            </p>
+
+                        </li>
+                        <li class="mb-[10px] ml-[10px]">
+                            <span class="absolute -left-[1%]  top-[42%]  ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"
+                                    fill="none">
+                                    <circle cx="5" cy="5" r="5" fill="#313EF7" />
+                                </svg>
+                            </span>
+                            <p
+                                class="mb-1 text-[#030303] font-Montserrat text-[16px] leading-[28px] font-medium max-w-[568px]">
+                                Lorem
+                                Ipsum is
+                                therefore always free from repetition, injected humour, or non-characteristic words etc.
+                            </p>
+
+                        </li>
+                        <li class="mb-[10px] ml-[10px]">
+                            <span class="absolute -left-[1%] bottom-[20%]  ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"
+                                    fill="none">
+                                    <circle cx="5" cy="5" r="5" fill="#313EF7" />
+                                </svg>
+                            </span>
+                            <p
+                                class="mb-1 text-[#030303] font-Montserrat text-[16px] leading-[28px] font-medium max-w-[568px]">
+                                It is
+                                a long established
+                                fact that a reader will be distracted by the readable content of a page when looking at
+                                its
+                                layout.
+                            </p>
+
+                        </li>
+                    </ol> -->
+                    <div class="mt-[40px]">
+
+                        <!-- Item #1 -->
+                        <div class="relative pl-8   group">
+
+                            <!-- Vertical line (::before) ~ Date ~ Title ~ Circle marker (::after) -->
+                            <div
+                                class="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:sm:h-[70px] before:h-full before:border-[2px]  before:border-dashed before:border-[#E5E7EB] before:bg-[#fff] sm:before:ml-[1rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-[10px] after:sm:top-[20%] after:top-[8%] after:h-[10px] after:bg-[#313EF7]    after:rounded-full sm:after:ml-[1rem] after:-translate-x-1/2 after:translate-y-1.5">
+                            </div>
+                            <!-- Content -->
+                            <div class="text-[#030303] font-Montserrat text-[16px] leading-[28px] font-medium">Contrary
+                                to popular belief, Lorem Ipsum is not simply random
+                                text</div>
+                        </div>
+
+                        <!-- Item #2 -->
+                        <div class="relative pl-8  pt-[10px] group">
+
+                            <!-- Vertical line (::before) ~ Date ~ Title ~ Circle marker (::after) -->
+                            <div
+                                class="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:sm:h-[70px] before:h-full before:border-[2px] before:border-dashed before:border-[#E5E7EB] before:bg-[#fff] sm:before:ml-[1rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-[10px] after:h-[10px] after:bg-[#313EF7]  after:rounded-full sm:after:ml-[1rem] after:-translate-x-1/2 after:sm:top-[42%] after:top-[23%] after:translate-y-1.5">
+
+                            </div>
+                            <!-- Content -->
+                            <div class="text-[#030303] font-Montserrat text-[16px] leading-[28px] font-medium">If you
+                                are going to use a passage of Lorem Ipsum</div>
+                        </div>
+
+                        <!-- Item #3 -->
+                        <div class="relative pl-8  py-[10px] group">
+                            <!-- Purple label -->
+
+                            <!-- Vertical line (::before) ~ Date ~ Title ~ Circle marker (::after) -->
+                            <div
+                                class="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:sm:h-[70px] before:h-full before:border-[2px] before:border-dashed before:border-[#E5E7EB] before:bg-[#fff] sm:before:ml-[1rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-[10px] after:h-[10px] after:bg-[#313EF7]  after:rounded-full sm:after:ml-[1rem] after:sm:top-[24%] after:top-[13%] after:-translate-x-1/2 after:translate-y-1.5">
+
+
+                            </div>
+                            <!-- Content -->
+                            <div
+                                class="text-[#030303] font-Montserrat text-[16px] leading-[28px] font-medium max-w-[568px]">
+                                Lorem Ipsum is therefore always free from repetition, injected
+                                humour, or non-characteristic words etc.</div>
+                        </div>
+
+                        <!-- Item #4 -->
+                        <div class="relative pl-8  group">
+
+                            <!-- Vertical line (::before) ~ Date ~ Title ~ Circle marker (::after) -->
+                            <div
+                                class="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:sm:h-[70px] before:h-full before:px-px before:bg-[#E5E7EB] sm:before:ml-[1rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-[10px] after:h-[10px] after:bg-[#313EF7]  after:rounded-full sm:after:ml-[1rem] after:-translate-x-1/2 after:sm:top-[16%] after:top-[10%] after:translate-y-1.5">
+
+
+
+                            </div>
+                            <!-- Content -->
+                            <div
+                                class="text-[#030303] font-Montserrat text-[16px] leading-[28px] font-medium max-w-[568px]">
+                                It is a long established fact that a reader will be distracted
+                                by the readable content of a page when looking at its
+                                layout.</div>
+                        </div>
+
+                    </div>
+                    <button
+                        class="py-[14px] mt-[40px] px-[45px] rounded-[56px] hover:text-[#313EF7] hover:bg-[#fff] duration-300 border-[1px] bg-[#313EF7] shadow-[0px_10px_14px_0px_rgba(49,62,247,0.25)]  text-[#fff] font-Montserrat text-[16px] leading-[28px] font-semibold">Book
+                        Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- flight_----ticket----section -->
+    <section class="bg-[#010223]">
+        <div class="container mx-auto max-w-[1320px] px-[12px]">
+            <div class="row py-[50px] justify-between">
+                <div class="lg:col-5 lg:col-6 col-12 ">
+                    <h4
+                        class="font-Montserrat text-[#fff] text-[40px] leading-[150%] tracking-[0.6px] capitalize font-bold">
+                        Book
+                        Popular
+                        Flight Tickets</h4>
+                    <p class="pt-[16px] font-Montserrat text-[16px] font-normal leading-[150%] text-[#ffffffa6]">
+                        Lorem
+                        Ipsum is
+                        simply
+                        dummy text of the
+                        printing
+                        and
+                        typesetting industry.
+                        Lorem Ipsum
+                        has been the industry's</p>
+                    <div class=""><img class="mt-[24px]" src="./dist/images/earth_air_delivery.png"
+                            alt="earth_air_delivery">
+                    </div>
+                </div>
+                <div class=" lg:col-6 col-12 flex justify-center lg:justify-start">
+                    <img src="./dist/images/flight_ticket_section.png" alt="flight">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------ best__travaler_ month__section------------------ -->
+    <section id="Passengers">
+        <div class="container mx-auto px-[12px] max-w-[1320px]">
+            <h3
+                class="pt-[60px] lg:pt-[100px] text-center text-[#011736] font-Montserrat text-[30px] md:text-[40px] leading-[150%] tracking-[0.6px] capitalize font-bold">
+                Best
+                travelars
+                of this month
+            </h3>
+            <div class="row pt-[20px] lg:pt-[40px] pb-[60px] lg:pb-[100px] ">
+                <div class="lg:col-3 sm:col-6 md:col-4 mt-[30px] lg:mt-0  col-12 flex justify-center">
+                    <div
+                        class="max-w-[282px] w-full h-full rounded-[213px] bg-[#fff] shadow-[0px_100px_200px_0px_rgba(1,23,54,0.05)] ">
+                        <div class="relative">
+                            <img class="w-full" src="./dist/images/best_traveler_1.png" alt="best__travaler_">
+                            <div class="flex justify-center  -translate-y-6"><img
+                                    src="./dist/images/ellipse_travel_1.png" alt="ellipse_travel_1"></div>
+                        </div>
+                        <h5 class="text-[#011736] text-center font-Montserrat text-[24px] font-semibold leading-[150%]">
+                            Raju Mullah
+                        </h5>
+                        <p
+                            class="text-[#979797] text-center font-Montserrat text-[16px] font-medium    leading-[150%] pb-[40px]">
+                            @rajumulllah
+                        </p>
+                    </div>
+                </div>
+                <!-- second__box -->
+                <div class="lg:col-3 sm:col-6 md:col-4 mt-[30px] lg:mt-0  col-12 flex justify-center">
+                    <div
+                        class="max-w-[282px] w-full h-full rounded-[213px] bg-[#fff] shadow-[0px_100px_200px_0px_rgba(1,23,54,0.05)] ">
+                        <div class="relative">
+                            <img class="w-full" src="./dist/images/second_best_traveler.png" alt="best__travaler_">
+                            <div class="flex justify-center  -translate-y-6"><img
+                                    src="./dist/images/Ellipse-travel-2.png" alt="ellipse_travel_1"></div>
+                        </div>
+                        <h5 class="text-[#011736] text-center font-Montserrat text-[24px] font-semibold leading-[150%]">
+                            Zaire Vetrovs
+                        </h5>
+                        <p
+                            class="text-[#AEB5BF] text-center font-Montserrat text-[16px] font-medium    leading-[150%] pb-[40px]">
+                            @zairevetrovs
+                        </p>
+                    </div>
+                </div>
+                <!-- third__box -->
+                <div class="lg:col-3 sm:col-6 md:col-4 mt-[30px] lg:mt-0 col-12 flex  justify-center">
+                    <div
+                        class="max-w-[282px] w-full h-full rounded-[213px] bg-[#fff] shadow-[0px_100px_200px_0px_rgba(1,23,54,0.05)] ">
+                        <div class="relative">
+                            <img class="w-full" src="./dist/images/best_trvel-3.png" alt="best__travaler_">
+                            <div class="flex justify-center  -translate-y-6"><img
+                                    src="./dist/images/ellipse-travel-3.png" alt="ellipse_travel_1"></div>
+                        </div>
+                        <h5 class="text-[#011736] text-center font-Montserrat text-[24px] font-semibold leading-[150%]">
+                            Marcus Dias
+                        </h5>
+                        <p
+                            class="text-[#AEB5BF] text-center font-Montserrat text-[16px] font-medium    leading-[150%] pb-[40px]">
+                            @marcusdias
+                        </p>
+                    </div>
+                </div>
+                <!-- fourth__box -->
+                <div class="lg:col-3 sm:col-6 md:col-12 mt-[30px] lg:mt-0 col-12  flex justify-center">
+                    <div
+                        class="max-w-[282px] w-full h-full rounded-[213px] bg-[#fff] shadow-[0px_100px_200px_0px_rgba(1,23,54,0.05)] ">
+                        <div class="relative">
+                            <img class="w-full" src="./dist/images/best_travel-4.png" alt="best__travaler_">
+                            <div class="flex justify-center  -translate-y-6"><img
+                                    src="./dist/images/ellipse-travel-4.png" alt="ellipse_travel_1"></div>
+                        </div>
+                        <h5 class="text-[#011736] text-center font-Montserrat text-[24px] font-semibold leading-[150%]">
+                            Davis Schleifer
+                        </h5>
+                        <p
+                            class="text-[#AEB5BF] text-center font-Montserrat text-[16px] font-medium    leading-[150%] pb-[40px]">
+                            @davisschleifer
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Customer Feedback___section -->
+
+    <section>
+        <div class="container mx-auto  max-w-[1320px] px-[12px]">
+            <h6 class="font-Montserrat text-center text-[20px] leading-[24px] text-[#313EF7] font-semibold">What’s our
+                customer
+                saying</h6>
+            <h4
+                class="text-center text-[40px] font-Montserrat capitalize tracking-[0.6px] leading-[150%] text-[#011736] font-bold pt-[8px]">
+                Our
+                Customer
+                Feedback</h4>
+            <div class="row pt-[60px]  justify-center">
+                <div class="lg:col-6 col-12">
+                    <img class="w-full" src="./dist/images/feedback__map.png" alt="feedback__map">
+                </div>
+
+                <!-- slider----col---6 -->
+                <div class="lg:col-5 sm:col-8 mt-5 lg:mt-0 col-12">
+                    <div class="slider_card ">
+                        <div class="py-[30px]  w-full px-[21px] rounded-[20px] bg-white  ">
+                            <div class="flex items-center gap-[16px]">
+                                <img src="./dist/images/svg---slider.svg" alt="svg---slider">
+                                <div class="">
+                                    <h6
+                                        class="font-Montserrat text-[20px] leading-[24px] font-semibold text-[#011736] opacity-90">
+                                        Jaylon
+                                        Vaccaro</h6>
+                                    <svg class="mt-[8px]" xmlns="http://www.w3.org/2000/svg" width="106" height="14"
+                                        viewBox="0 0 106 14" fill="none">
+                                        <path
+                                            d="M13.7227 5.16485L9.75547 4.58829L7.98204 0.992975C7.9336 0.894537 7.85391 0.81485 7.75547 0.766412C7.5086 0.644537 7.2086 0.7461 7.08516 0.992975L5.31172 4.58829L1.34454 5.16485C1.23516 5.18047 1.13516 5.23204 1.0586 5.31016C0.966039 5.4053 0.915034 5.53329 0.916792 5.66601C0.91855 5.79873 0.972927 5.92532 1.06797 6.01797L3.93829 8.81641L3.26016 12.768C3.24426 12.8599 3.25443 12.9544 3.28952 13.0409C3.32462 13.1273 3.38323 13.2022 3.45871 13.257C3.53419 13.3118 3.62352 13.3444 3.71657 13.351C3.80962 13.3577 3.90267 13.3381 3.98516 13.2945L7.5336 11.4289L11.082 13.2945C11.1789 13.3461 11.2914 13.3633 11.3992 13.3445C11.6711 13.2977 11.8539 13.0399 11.807 12.768L11.1289 8.81641L13.9992 6.01797C14.0773 5.94141 14.1289 5.84141 14.1445 5.73204C14.1867 5.4586 13.9961 5.20547 13.7227 5.16485Z"
+                                            fill="#FF9900" />
+                                        <path
+                                            d="M59.3394 5.16485L55.3722 4.58829L53.5987 0.992975C53.5503 0.894537 53.4706 0.81485 53.3722 0.766412C53.1253 0.644537 52.8253 0.7461 52.7019 0.992975L50.9284 4.58829L46.9612 5.16485C46.8519 5.18047 46.7519 5.23204 46.6753 5.31016C46.5827 5.4053 46.5317 5.53329 46.5335 5.66601C46.5352 5.79873 46.5896 5.92532 46.6847 6.01797L49.555 8.81641L48.8769 12.768C48.861 12.8599 48.8711 12.9544 48.9062 13.0409C48.9413 13.1273 48.9999 13.2022 49.0754 13.257C49.1509 13.3118 49.2402 13.3444 49.3333 13.351C49.4263 13.3577 49.5194 13.3381 49.6019 13.2945L53.1503 11.4289L56.6987 13.2945C56.7956 13.3461 56.9081 13.3633 57.0159 13.3445C57.2878 13.2977 57.4706 13.0399 57.4237 12.768L56.7456 8.81641L59.6159 6.01797C59.694 5.94141 59.7456 5.84141 59.7612 5.73204C59.8034 5.4586 59.6128 5.20547 59.3394 5.16485Z"
+                                            fill="#FF9900" />
+                                        <path
+                                            d="M36.3394 5.09771L32.3722 4.52115L30.5987 0.925836C30.5503 0.827398 30.4706 0.747711 30.3722 0.699273C30.1253 0.577398 29.8253 0.678961 29.7019 0.925836L27.9284 4.52115L23.9612 5.09771C23.8519 5.11334 23.7519 5.1649 23.6753 5.24302C23.5827 5.33816 23.5317 5.46615 23.5335 5.59887C23.5352 5.73159 23.5896 5.85819 23.6847 5.95084L26.555 8.74927L25.8769 12.7008C25.861 12.7928 25.8711 12.8873 25.9062 12.9737C25.9413 13.0602 25.9999 13.135 26.0754 13.1899C26.1509 13.2447 26.2402 13.2773 26.3333 13.2839C26.4263 13.2905 26.5194 13.271 26.6019 13.2274L30.1503 11.3618L33.6987 13.2274C33.7956 13.279 33.9081 13.2961 34.0159 13.2774C34.2878 13.2305 34.4706 12.9727 34.4237 12.7008L33.7456 8.74927L36.6159 5.95084C36.694 5.87427 36.7456 5.77427 36.7612 5.6649C36.8034 5.39146 36.6128 5.13834 36.3394 5.09771Z"
+                                            fill="#FF9900" />
+                                        <path
+                                            d="M82.3394 5.09771L78.3722 4.52115L76.5987 0.925836C76.5503 0.827398 76.4706 0.747711 76.3722 0.699273C76.1253 0.577398 75.8253 0.678961 75.7019 0.925836L73.9284 4.52115L69.9612 5.09771C69.8519 5.11334 69.7519 5.1649 69.6753 5.24302C69.5827 5.33816 69.5317 5.46615 69.5335 5.59887C69.5352 5.73159 69.5896 5.85819 69.6847 5.95084L72.555 8.74927L71.8769 12.7008C71.861 12.7928 71.8711 12.8873 71.9062 12.9737C71.9413 13.0602 71.9999 13.135 72.0754 13.1899C72.1509 13.2447 72.2402 13.2773 72.3333 13.2839C72.4263 13.2905 72.5194 13.271 72.6019 13.2274L76.1503 11.3618L79.6987 13.2274C79.7956 13.279 79.9081 13.2961 80.0159 13.2774C80.2878 13.2305 80.4706 12.9727 80.4237 12.7008L79.7456 8.74927L82.6159 5.95084C82.694 5.87427 82.7456 5.77427 82.7612 5.6649C82.8034 5.39146 82.6128 5.13834 82.3394 5.09771Z"
+                                            fill="#FF9900" />
+                                        <path
+                                            d="M105.339 5.09771L101.372 4.52115L99.5987 0.925836C99.5503 0.827398 99.4706 0.747711 99.3722 0.699273C99.1253 0.577398 98.8253 0.678961 98.7019 0.925836L96.9284 4.52115L92.9612 5.09771C92.8519 5.11334 92.7519 5.1649 92.6753 5.24302C92.5827 5.33816 92.5317 5.46615 92.5335 5.59887C92.5352 5.73159 92.5896 5.85819 92.6847 5.95084L95.555 8.74927L94.8769 12.7008C94.861 12.7928 94.8711 12.8873 94.9062 12.9737C94.9413 13.0602 94.9999 13.135 95.0754 13.1899C95.1509 13.2447 95.2402 13.2773 95.3333 13.2839C95.4263 13.2905 95.5194 13.271 95.6019 13.2274L99.1503 11.3618L102.699 13.2274C102.796 13.279 102.908 13.2961 103.016 13.2774C103.288 13.2305 103.471 12.9727 103.424 12.7008L102.746 8.74927L105.616 5.95084C105.694 5.87427 105.746 5.77427 105.761 5.6649C105.803 5.39146 105.613 5.13834 105.339 5.09771Z"
+                                            fill="#FF9900" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <p
+                                class="text-[#1B1B1C] font-Montserrat text-[18px] italic leading-[34px] font-medium pt-[16px]">
+                                There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered
+                                alteration in some form,
+                                by injected humour, or randomised words which don
+                            </p>
+                        </div>
+                        <div
+                            class="py-[30px]  w-full px-[21px] rounded-[20px] bg-[#fff] shadow-[0px_100px_200px_0px_rgba(1,23,54,0.10)] ">
+                            <div class="flex items-center gap-[16px]">
+                                <img src="./dist/images/svg---slider.svg" alt="svg---slider">
+                                <div class="">
+                                    <h6
+                                        class="font-Montserrat text-[20px] leading-[24px] font-semibold text-[#011736] opacity-90">
+                                        Jaylon
+                                        Vaccaro</h6>
+                                    <svg class="mt-[8px]" xmlns="http://www.w3.org/2000/svg" width="106" height="14"
+                                        viewBox="0 0 106 14" fill="none">
+                                        <path
+                                            d="M13.7227 5.16485L9.75547 4.58829L7.98204 0.992975C7.9336 0.894537 7.85391 0.81485 7.75547 0.766412C7.5086 0.644537 7.2086 0.7461 7.08516 0.992975L5.31172 4.58829L1.34454 5.16485C1.23516 5.18047 1.13516 5.23204 1.0586 5.31016C0.966039 5.4053 0.915034 5.53329 0.916792 5.66601C0.91855 5.79873 0.972927 5.92532 1.06797 6.01797L3.93829 8.81641L3.26016 12.768C3.24426 12.8599 3.25443 12.9544 3.28952 13.0409C3.32462 13.1273 3.38323 13.2022 3.45871 13.257C3.53419 13.3118 3.62352 13.3444 3.71657 13.351C3.80962 13.3577 3.90267 13.3381 3.98516 13.2945L7.5336 11.4289L11.082 13.2945C11.1789 13.3461 11.2914 13.3633 11.3992 13.3445C11.6711 13.2977 11.8539 13.0399 11.807 12.768L11.1289 8.81641L13.9992 6.01797C14.0773 5.94141 14.1289 5.84141 14.1445 5.73204C14.1867 5.4586 13.9961 5.20547 13.7227 5.16485Z"
+                                            fill="#FF9900" />
+                                        <path
+                                            d="M59.3394 5.16485L55.3722 4.58829L53.5987 0.992975C53.5503 0.894537 53.4706 0.81485 53.3722 0.766412C53.1253 0.644537 52.8253 0.7461 52.7019 0.992975L50.9284 4.58829L46.9612 5.16485C46.8519 5.18047 46.7519 5.23204 46.6753 5.31016C46.5827 5.4053 46.5317 5.53329 46.5335 5.66601C46.5352 5.79873 46.5896 5.92532 46.6847 6.01797L49.555 8.81641L48.8769 12.768C48.861 12.8599 48.8711 12.9544 48.9062 13.0409C48.9413 13.1273 48.9999 13.2022 49.0754 13.257C49.1509 13.3118 49.2402 13.3444 49.3333 13.351C49.4263 13.3577 49.5194 13.3381 49.6019 13.2945L53.1503 11.4289L56.6987 13.2945C56.7956 13.3461 56.9081 13.3633 57.0159 13.3445C57.2878 13.2977 57.4706 13.0399 57.4237 12.768L56.7456 8.81641L59.6159 6.01797C59.694 5.94141 59.7456 5.84141 59.7612 5.73204C59.8034 5.4586 59.6128 5.20547 59.3394 5.16485Z"
+                                            fill="#FF9900" />
+                                        <path
+                                            d="M36.3394 5.09771L32.3722 4.52115L30.5987 0.925836C30.5503 0.827398 30.4706 0.747711 30.3722 0.699273C30.1253 0.577398 29.8253 0.678961 29.7019 0.925836L27.9284 4.52115L23.9612 5.09771C23.8519 5.11334 23.7519 5.1649 23.6753 5.24302C23.5827 5.33816 23.5317 5.46615 23.5335 5.59887C23.5352 5.73159 23.5896 5.85819 23.6847 5.95084L26.555 8.74927L25.8769 12.7008C25.861 12.7928 25.8711 12.8873 25.9062 12.9737C25.9413 13.0602 25.9999 13.135 26.0754 13.1899C26.1509 13.2447 26.2402 13.2773 26.3333 13.2839C26.4263 13.2905 26.5194 13.271 26.6019 13.2274L30.1503 11.3618L33.6987 13.2274C33.7956 13.279 33.9081 13.2961 34.0159 13.2774C34.2878 13.2305 34.4706 12.9727 34.4237 12.7008L33.7456 8.74927L36.6159 5.95084C36.694 5.87427 36.7456 5.77427 36.7612 5.6649C36.8034 5.39146 36.6128 5.13834 36.3394 5.09771Z"
+                                            fill="#FF9900" />
+                                        <path
+                                            d="M82.3394 5.09771L78.3722 4.52115L76.5987 0.925836C76.5503 0.827398 76.4706 0.747711 76.3722 0.699273C76.1253 0.577398 75.8253 0.678961 75.7019 0.925836L73.9284 4.52115L69.9612 5.09771C69.8519 5.11334 69.7519 5.1649 69.6753 5.24302C69.5827 5.33816 69.5317 5.46615 69.5335 5.59887C69.5352 5.73159 69.5896 5.85819 69.6847 5.95084L72.555 8.74927L71.8769 12.7008C71.861 12.7928 71.8711 12.8873 71.9062 12.9737C71.9413 13.0602 71.9999 13.135 72.0754 13.1899C72.1509 13.2447 72.2402 13.2773 72.3333 13.2839C72.4263 13.2905 72.5194 13.271 72.6019 13.2274L76.1503 11.3618L79.6987 13.2274C79.7956 13.279 79.9081 13.2961 80.0159 13.2774C80.2878 13.2305 80.4706 12.9727 80.4237 12.7008L79.7456 8.74927L82.6159 5.95084C82.694 5.87427 82.7456 5.77427 82.7612 5.6649C82.8034 5.39146 82.6128 5.13834 82.3394 5.09771Z"
+                                            fill="#FF9900" />
+                                        <path
+                                            d="M105.339 5.09771L101.372 4.52115L99.5987 0.925836C99.5503 0.827398 99.4706 0.747711 99.3722 0.699273C99.1253 0.577398 98.8253 0.678961 98.7019 0.925836L96.9284 4.52115L92.9612 5.09771C92.8519 5.11334 92.7519 5.1649 92.6753 5.24302C92.5827 5.33816 92.5317 5.46615 92.5335 5.59887C92.5352 5.73159 92.5896 5.85819 92.6847 5.95084L95.555 8.74927L94.8769 12.7008C94.861 12.7928 94.8711 12.8873 94.9062 12.9737C94.9413 13.0602 94.9999 13.135 95.0754 13.1899C95.1509 13.2447 95.2402 13.2773 95.3333 13.2839C95.4263 13.2905 95.5194 13.271 95.6019 13.2274L99.1503 11.3618L102.699 13.2274C102.796 13.279 102.908 13.2961 103.016 13.2774C103.288 13.2305 103.471 12.9727 103.424 12.7008L102.746 8.74927L105.616 5.95084C105.694 5.87427 105.746 5.77427 105.761 5.6649C105.803 5.39146 105.613 5.13834 105.339 5.09771Z"
+                                            fill="#FF9900" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <p
+                                class="text-[#1B1B1C] font-Montserrat text-[18px] italic leading-[34px] font-medium pt-[16px]">
+                                There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered
+                                alteration in some form,
+                                by injected humour, or randomised words which don
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center gap-[18px] mt-[32px] justify-center">
+                        <button
+                            class="w-[50px] back h-[50px]  bg-[#DBDDF2] group hover:bg-[#313EF7] rounded-[50%] duration-300 flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="22" viewBox="0 0 13 22"
+                                fill="none">
+                                <path class="group-hover:stroke-white" d="M11.9167 1L1.91675 11L11.9167 21"
+                                    stroke="#010223" stroke-width="2" />
+                            </svg>
+                        </button>
+                        <button
+                            class="w-[50px] h-[50px] hover:bg-[#313EF7] duration-300 bg-[#DBDDF2] group rounded-[50%] flex justify-center items-center next "><svg
+                                xmlns="http://www.w3.org/2000/svg" width="13" height="22" viewBox="0 0 13 22"
+                                fill="none">
+                                <path class="group-hover:stroke-white" d="M0.916748 21L10.9167 11L0.91675 0.999999"
+                                    stroke="black" stroke-width="2" />
+                            </svg></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our Customer Feedback___section -->
+    <!-- Make memories with us________-----section -->
+    <section>
+        <div class="container mx-auto px-[12px] max-w-[1320px]">
+            <h2
+                class="pt-[50px] lg:pt-[100px]  text-[#011736] text-center font-Montserrat text-[30px] md:text-[40px] font-bold leading-[150%] tracking-[0.6px] capitalize">
+                Make
+                memories with
+                us</h2>
+            <div class="row pt-[40px] pb-[100px]">
+                <div class="lg:col-3 col-12 md:col-4 sm:col-6 flex justify-center ">
+                    <img class="" src="./dist/images/memory-section-1.png" alt="memories">
+                </div>
+                <div class="lg:col-3 col-12 md:col-4 sm:col-6 flex justify-center ">
+                    <img class="lg:mt-[50px] " src="./dist/images/memory-section-2.png" alt="memories">
+                </div>
+                <div class="lg:col-3 col-12 md:col-4 sm:col-6 flex justify-center">
+                    <img class="" src="./dist/images/memory-section-3.png" alt="memories">
+                </div>
+                <div class="lg:col-3 col-12 md:col-12 sm:col-6  flex justify-center">
+                    <img class="lg:mt-[50px] " src="./dist/images/memory-section-4.png" alt="memories">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Subscribe Newsletter & get letest news-----section -->
+    <section class="bg-[#F5F5FF]">
+        <div class="container mx-auto px-[12px] max-w-[1320px]">
+            <div class="flex justify-center pt-[60px] md:pt-[100px] ">
+                <h1
+                    class="text-[#011736] text-center font-Montserrat text-[23px] sm:text-[40px]  font-bold leading-[150%] tracking-[0.6px] capitalize max-w-[534px]">
+                    Subscribe
+                    Newsletter & get
+                    letest news
+                </h1>
+            </div>
+            <div class="flex  mt-[40px] justify-center pb-[60px] md:pb-[100px]">
+                <div
+                    class="py-[11px] max-w-[462px] w-full  pr-[11px] pl-[20px] rounded-[150px] bg-[#fff]  shadow-[0px_100px_200px_0px_rgba(1,23,54,0.10)] flex-col items-center flex sm:flex-row sm:justify-between   ">
+                    <input type="email" placeholder="Enter your email address"
+                        class="text-[#AEB5BF] font-Rubik md:text-[20px] text-[14px] font-normal leading-[24px] opacity-[0.9] outline-none w-[65%]">
+                    <button
+                        class="py-[10px]  px-[25px] rounded-[56px] mt-5 sm:mt-0  bg-[#313EF7] hover:bg-[#fff] duration-300 hover:text-[#313EF7] border-[1px]  text-[#fff] text-center font-Montserrat sm:text-[16px] text-[14px] leading-[28px] font-semibold">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer_----sevtin---here -->
+    <section id="Your-Orders" class="bg-no-repeat bg-center bg-cover  "
+        style="background-image: url(./dist/images/footer_img_2.png);">
+        <div class="container mx-auto px-[12px] max-w-[1320px]">
+            <div class="row pt-[100px] pb-[40px]">
+                <div class="md:col-5 col-12">
+                    <div class="flex items-center gap-[8px]">
+                        <img class="cursor-pointer" src="./dist/images/ft_plane_logo.png" alt="logo">
+                        <h3
+                            class=" text-[#fff] font-Montserrat text-[22px] font-extrabold leading-[28px] tracking-[1.1px]">
+                            FT
+                            PLANE
+                        </h3>
+                    </div>
+                    <p
+                        class="pt-[27px] text-[#A7A7A7] font-Montserrat text-[16px] leading-[150%] font-normal max-w-[300px]">
+                        There are
+                        many
+                        variations of
+                        passages of Lorem
+                        Ipsum
+                        available,
+                        but
+                        the
+                        majority have suffered alteration in some form</p>
+                    <div class="flex gap-[10px] items-center mt-[24px]">
+                        <div
+                            class="w-[42px] cursor-pointer hover:translate-y-[-10px] duration-300 h-[41px] rounded-[50%] flex justify-center items-center bg-[#fff]">
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="17" viewBox="0 0 10 17"
+                                    fill="none">
+                                    <path
+                                        d="M6.33184 16.0709V8.15025H8.72115L9.03786 5.36255H6.33184L6.33586 3.96718C6.33586 3.24008 6.40976 2.85068 7.52724 2.85068H9.02111V0.0625H6.63126C3.76063 0.0625 2.7504 1.41477 2.7504 3.6892V5.36277H0.960938V8.15072H2.7504V15.9586C3.44753 16.0884 4.16824 16.157 4.90618 16.157C5.38288 16.157 5.85909 16.1283 6.33184 16.0709Z"
+                                        fill="#17181C" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div
+                            class="w-[42px] cursor-pointer hover:translate-y-[-10px] duration-300 h-[41px] rounded-[50%] flex justify-center items-center bg-[#fff]">
+                            <a href="https://in.indeed.com/?r=us" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17"
+                                    fill="none">
+                                    <path
+                                        d="M0.923828 1.93206C0.923828 1.39015 1.11484 0.943081 1.49685 0.590855C1.87886 0.238613 2.3755 0.0625 2.98672 0.0625C3.58704 0.0625 4.07273 0.235898 4.44384 0.582726C4.82585 0.940382 5.01686 1.40641 5.01686 1.98083C5.01686 2.50106 4.83132 2.93457 4.46021 3.2814C4.0782 3.63906 3.57611 3.81788 2.95397 3.81788H2.9376C2.33728 3.81788 1.85159 3.63906 1.48048 3.2814C1.10937 2.92374 0.923828 2.47396 0.923828 1.93206ZM1.13667 16.157V5.29728H4.77128V16.157H1.13667ZM6.78505 16.157H10.4197V10.0931C10.4197 9.71377 10.4633 9.42114 10.5506 9.21523C10.7034 8.84673 10.9354 8.53513 11.2465 8.28045C11.5575 8.02575 11.9477 7.89841 12.4171 7.89841C13.6395 7.89841 14.2508 8.71668 14.2508 10.3532V16.157H17.8854V9.93054C17.8854 8.32651 17.5034 7.10994 16.7393 6.28083C15.9753 5.45172 14.9657 5.03716 13.7105 5.03716C12.3025 5.03716 11.2055 5.63868 10.4197 6.8417V6.87421H10.4033L10.4197 6.8417V5.29728H6.78505C6.80688 5.64409 6.8178 6.72247 6.8178 8.53243C6.8178 10.3424 6.80688 12.8839 6.78505 16.157Z"
+                                        fill="#17181C" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div
+                            class="w-[42px] cursor-pointer h-[41px] hover:translate-y-[-10px] duration-300 rounded-[50%] flex justify-center items-center bg-[#fff]">
+                            <a href="https://twitter.com/" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="17" viewBox="0 0 22 17"
+                                    fill="none">
+                                    <path
+                                        d="M21.5 1.96784C20.7191 2.29097 19.8869 2.50515 19.0194 2.60915C19.9119 2.1065 20.5931 1.31663 20.9133 0.364581C20.0812 0.83256 19.1624 1.16312 18.1833 1.34758C17.3932 0.554001 16.2671 0.0625 15.0386 0.0625C12.6551 0.0625 10.7362 1.88737 10.7362 4.1245C10.7362 4.44639 10.7651 4.7559 10.8359 5.05056C7.25675 4.8859 4.08969 3.26778 1.96212 0.802847C1.59069 1.41072 1.37281 2.1065 1.37281 2.85552C1.37281 4.26193 2.14062 5.50863 3.28513 6.23041C2.59344 6.21803 1.91488 6.02861 1.34 5.73024C1.34 5.74262 1.34 5.75872 1.34 5.77481C1.34 7.74824 2.83231 9.38741 4.78925 9.76501C4.43881 9.85538 4.05687 9.89872 3.6605 9.89872C3.38488 9.89872 3.10662 9.88386 2.84544 9.82939C3.40325 11.4376 4.98613 12.6199 6.86825 12.6583C5.4035 13.7391 3.54369 14.3903 1.53031 14.3903C1.17725 14.3903 0.838625 14.3755 0.5 14.3346C2.40706 15.4946 4.66719 16.157 7.1045 16.157C15.0267 16.157 19.358 9.96681 19.358 4.60115C19.358 4.42163 19.3514 4.24831 19.3423 4.07622C20.1967 3.50425 20.9146 2.7899 21.5 1.96784Z"
+                                        fill="#17181C" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:col-7 col-12">
+                    <div class="row">
+                        <div class=" col-6 sm:col-4 pt-[30px] md:pt-0 flex justify-start lg:justify-center">
+                            <ul>
+                                <li class="text-[#fff] font-Montserrat text-[24px] font-bold leading-[150%] capitalize">
+                                    Address
+                                </li>
+                                <li class="pt-[10.27px]"><a
+                                        class=" text-[#A7A7A7] font-Montserrat text-[16px] font-normal leading-[150%]"
+                                        href="">Integrations</a></li>
+                                <li class="pt-[15px]"><a
+                                        class=" text-[#A7A7A7] font-Montserrat text-[16px] font-normal leading-[150%]"
+                                        href="">Hellos</a></li>
+                                <li class="pt-[15px]"><a
+                                        class=" text-[#A7A7A7] font-Montserrat text-[16px] font-normal leading-[150%]"
+                                        href="">Intercom</a></li>
+                                <li class="pt-[15px]"><a
+                                        class=" text-[#A7A7A7] font-Montserrat text-[16px] font-normal leading-[150%]"
+                                        href="">Intercom</a></li>
+                            </ul>
+                        </div>
+                        <div class=" col-6 sm:col-4 pt-[30px] md:pt-0 flex justify-start lg:justify-center">
+                            <ul>
+                                <li class="text-[#fff] font-Montserrat text-[24px] font-bold leading-[150%] capitalize">
+                                    About
+                                </li>
+                                <li class="pt-[10.27px]"><a
+                                        class=" text-[#A7A7A7] font-Montserrat text-[16px] font-normal leading-[150%]"
+                                        href="">Our Blog</a></li>
+                                <li class="pt-[15px]"><a
+                                        class=" text-[#A7A7A7] font-Montserrat text-[16px] font-normal leading-[150%]"
+                                        href="">Customers</a></li>
+                                <li class="pt-[15px]"><a
+                                        class=" text-[#A7A7A7] font-Montserrat text-[16px] font-normal leading-[150%]"
+                                        href="">Our Team</a></li>
+                                <li class="pt-[15px]"><a
+                                        class=" text-[#A7A7A7] font-Montserrat text-[16px] font-normal leading-[150%]"
+                                        href="">Careers</a></li>
+                                <li class="pt-[15px]"><a
+                                        class=" text-[#A7A7A7] font-Montserrat text-[16px] font-normal leading-[150%]"
+                                        href="">Integrations</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 sm:col-4 pt-[30px] md:pt-0 flex justify-start lg:justify-center">
+                            <ul>
+                                <li class="text-[#fff] font-Montserrat text-[24px] font-bold leading-[150%] capitalize">
+                                    Support
+                                </li>
+                                <li class="pt-[10.27px]"><a
+                                        class=" text-[#A7A7A7] font-Montserrat text-[16px] font-normal leading-[150%]"
+                                        href="">Test Zoom</a></li>
+                                <li class="pt-[15px]"><a
+                                        class=" text-[#A7A7A7] font-Montserrat text-[16px] font-normal leading-[150%]"
+                                        href="">Account</a></li>
+                                <li class="pt-[15px]"><a
+                                        class=" text-[#A7A7A7] font-Montserrat text-[16px] font-normal leading-[150%]"
+                                        href="">Support Center</a></li>
+                                <li class="pt-[15px]"><a
+                                        class=" text-[#A7A7A7] font-Montserrat text-[16px] font-normal leading-[150%]"
+                                        href="">Live Training</a></li>
+                                <li class="pt-[15px]"><a
+                                        class=" text-[#A7A7A7] font-Montserrat text-[16px] font-normal leading-[150%]"
+                                        href="">Accessibility</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="max-w-[1200px] mt-[40px] mb-[40px] bg-white w-full h-[3px]"
+                style="background-color: rgba(255, 255, 255, 0.10);">
+            </div>
+            <div class="flex items-center gap-[4px] justify-center pb-[30px]">
+                <p class="text-[#fff] font-Montserrat text-[14px] font-normal tracking-[-0.28px]">Copyright</p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                    <g clip-path="url(#clip0_2_13574)">
+                        <path
+                            d="M7.5 0.960938C3.63396 0.960938 0.5 4.09489 0.5 7.96094C0.5 11.827 3.63396 14.9609 7.5 14.9609C11.366 14.9609 14.5 11.827 14.5 7.96094C14.4957 4.09671 11.3642 0.96521 7.5 0.960938ZM7.5 14.261C4.02061 14.261 1.20004 11.4403 1.20004 7.96094C1.20004 4.48155 4.02061 1.66098 7.5 1.66098C10.9794 1.66098 13.8 4.48155 13.8 7.96094C13.796 11.4387 10.9778 14.2569 7.5 14.261Z"
+                            fill="white" />
+                        <path
+                            d="M7.50049 5.16102C8.31813 5.16508 9.09283 5.5276 9.61995 6.15255C9.74556 6.29952 9.96644 6.31704 10.1135 6.19154C10.2605 6.06603 10.278 5.84504 10.1525 5.69796C8.9026 4.22343 6.69406 4.04121 5.21953 5.29101C3.74489 6.54081 3.56267 8.74946 4.81257 10.224C6.06238 11.6985 8.27092 11.8807 9.74556 10.6309C9.8921 10.5067 10.0282 10.3706 10.1525 10.224C10.278 10.0769 10.2605 9.85603 10.1135 9.73042C9.96644 9.60491 9.74556 9.62243 9.61995 9.7694C8.61805 10.9432 6.85428 11.0824 5.68052 10.0804C4.50688 9.07855 4.3676 7.31477 5.36949 6.14102C5.90173 5.51766 6.68081 5.15931 7.50049 5.16102Z"
+                            fill="white" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_2_13574">
+                            <rect width="14" height="14" fill="white" transform="translate(0.5 0.960938)" />
+                        </clipPath>
+                    </defs>
+                </svg>
+                <p class="text-[#fff] font-Montserrat text-[13px] sm:text-[14px] font-normal tracking-[-0.28px]">FT
+                    PLANE 2022 All
+                    right
+                    reserved
+                </p>
+            </div>
+
+            <!-- back---too----top----button -->
+            <button id="to-top-button" onclick="goToTop()" title="Go To Top"
+                class="hidden fixed z-50 bottom-10 right-10 p-4 border-0 w-14 h-14 rounded-full shadow-md bg-[#313EF7] hover:bg-blue-800 text-white text-lg font-semibold transition-colors duration-300">
+                <img src="./dist/images/bak-top-svg.svg" alt="back">
+                <span class="sr-only">Go to top</span>
+            </button>
+        </div>
+
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./dist/app.js">
+    </script>
+
+
+
+
+
+</body>
+
+</html>
