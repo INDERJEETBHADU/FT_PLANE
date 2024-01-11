@@ -22,12 +22,15 @@ function navtabs(tabs) {
     tablets.forEach(content => {
         content.style.display = 'none'
     })
+
+    const selectshow = document.getElementById(tabs)
+    selectshow.style.display = 'block'
+
     tbbtn.forEach(content => {
         content.classList.remove('bg-blue-800')
         content.classList.remove('text-white')
     })
-    const selectshow = document.getElementById(tabs)
-    selectshow.style.display = 'block'
+
 
     const activetab = document.querySelector(`button[onclick = "navtabs('${tabs}')"]`)
     activetab.classList.add("bg-blue-800")

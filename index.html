@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FT PLANE</title>
     <link rel="stylesheet" href="./dist/output.css">
-    <link rel="icon" href="./images/bak-top-svg.svg">
+    <link rel="icon" href="./dist/images/bak-top-svg.svg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
         integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -93,18 +93,19 @@
     <!-- navtabs____sectionss___here -->
     <section class="bg-[#FCFCFC]" id="flight">
         <div class="container mx-auto px-[12px] max-w-[1320px]">
-            <div class=" translate-y-[-140px] lg:ml-[47px]  ">
+            <div class=" translate-y-[-140px] lg:ml-[47px] ">
                 <div class="flex tabs">
                     <button
-                        class="bg-[#FFF]    duration-300 rounded-[20px_0px_0px_0px] border-[1px] border-gray-100   text-[#030522] py-[16px] px-[20px] lg:text-[18px] text-[14px] leading-[28px] font-Montserrat font-bold"
+                        class="bg-[#FFF]    duration-300 rounded-[20px_0px_0px_0px] border-[1px] border-gray-100   text-[#030522] py-[16px] sm:px-[42.17px] px-[18px] lg:text-[18px] text-[14px] leading-[28px] font-Montserrat font-bold"
                         onclick="navtabs('tab1')">Economy</button>
                     <button
-                        class="bg-[#FFF]  duration-300    border-[1px] border-gray-100  text-[#030522] py-[16px] px-[20px] font-Montserrat lg:text-[18px] text-[14px] leading-[28px] font-bold"
+                        class="bg-[#FFF]  duration-300    border-[1px] border-gray-100  text-[#030522] py-[16px] sm:px-[39.17px] px-[18px] font-Montserrat lg:text-[18px] text-[14px] leading-[28px] font-bold"
                         onclick="navtabs('tab2')">Busniness</button>
                     <button
-                        class="bg-[#FFF]  duration-300 rounded-[0px_20px_0px_0px] border-[1px] border-gray-100   text-[#030522] py-[16px] px-[20px] lg:text-[18px] text-[14px] leading-[28px] font-Montserrat font-bold"
+                        class="bg-[#FFF]  duration-300 rounded-[0px_20px_0px_0px] border-[1px] border-gray-100   text-[#030522] py-[16px] sm:px-[66.17px] px-[18px] lg:text-[18px] text-[14px] leading-[28px] font-Montserrat font-bold"
                         onclick="navtabs('tab3')">First</button>
                 </div>
+
                 <div
                     class="max-w-[1200px]   py-[40px] px-[40px] rounded-[0px_20px_20px_20px] bg-[#fff] shadow-[0px_100px_200px_0px_rgba(1,23,54,0.10)]">
                     <div class="tablets" id="tab1">
@@ -1196,16 +1197,25 @@
                 us</h2>
             <div class="row pt-[40px] pb-[100px]">
                 <div class="lg:col-3 col-12 md:col-4 sm:col-6 flex justify-center ">
-                    <img class="" src="./dist/images/memory-section-1.png" alt="memories">
+                    <div class="w-[262px] rounded-[200px] overflow-hidden lg:mb-[50px] border-[10px]"><img
+                            class=" h-full hover:scale-125 duration-300" src="./dist/images/dubai-1.png" alt="memories">
+                    </div>
                 </div>
                 <div class="lg:col-3 col-12 md:col-4 sm:col-6 flex justify-center ">
-                    <img class="lg:mt-[50px] " src="./dist/images/memory-section-2.png" alt="memories">
+                    <div class="w-[262px] rounded-[200px] overflow-hidden lg:mt-[50px] border-[10px]"><img
+                            class="h-full hover:scale-125 duration-300 " src="./dist/images/dubai-2.png" alt="memories">
+                    </div>
                 </div>
                 <div class="lg:col-3 col-12 md:col-4 sm:col-6 flex justify-center">
-                    <img class="" src="./dist/images/memory-section-3.png" alt="memories">
+                    <div class="w-[262px] rounded-[200px] overflow-hidden lg:mb-[50px] border-[10px]"><img
+                            class="h-full  hover:scale-125 duration-300" src="./dist/images/dubai-3.png" alt="memories">
+                    </div>
                 </div>
-                <div class="lg:col-3 col-12 md:col-12 sm:col-6  flex justify-center">
-                    <img class="lg:mt-[50px] " src="./dist/images/memory-section-4.png" alt="memories">
+                <div class="lg:col-3 col-12 md:col-12 sm:col-6  flex justify-center lg:mt-[50px]">
+                    <div class="max-w-[262px] w-full  after:relative rounded-[200px]  border-[10px] overflow-hidden  ">
+                        <img class=" h-full hover:scale-125 duration-300 
+                        after:left-0 after:w-full" src="./dist/images/dubai-4.png" alt="memories">
+                    </div>
                 </div>
 
             </div>
@@ -1363,28 +1373,15 @@
                     </div>
                 </div>
             </div>
-            <div class="max-w-[1200px] mt-[40px] mb-[40px] bg-white w-full h-[3px]"
+            <div class="max-w-[1200px] mt-[40px] mb-[40px] bg-white w-full rounded-[50px] h-[3px]"
                 style="background-color: rgba(255, 255, 255, 0.10);">
             </div>
             <div class="flex items-center gap-[4px] justify-center pb-[30px]">
                 <p class="text-[#fff] font-Montserrat text-[14px] font-normal tracking-[-0.28px]">Copyright</p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                    <g clip-path="url(#clip0_2_13574)">
-                        <path
-                            d="M7.5 0.960938C3.63396 0.960938 0.5 4.09489 0.5 7.96094C0.5 11.827 3.63396 14.9609 7.5 14.9609C11.366 14.9609 14.5 11.827 14.5 7.96094C14.4957 4.09671 11.3642 0.96521 7.5 0.960938ZM7.5 14.261C4.02061 14.261 1.20004 11.4403 1.20004 7.96094C1.20004 4.48155 4.02061 1.66098 7.5 1.66098C10.9794 1.66098 13.8 4.48155 13.8 7.96094C13.796 11.4387 10.9778 14.2569 7.5 14.261Z"
-                            fill="white" />
-                        <path
-                            d="M7.50049 5.16102C8.31813 5.16508 9.09283 5.5276 9.61995 6.15255C9.74556 6.29952 9.96644 6.31704 10.1135 6.19154C10.2605 6.06603 10.278 5.84504 10.1525 5.69796C8.9026 4.22343 6.69406 4.04121 5.21953 5.29101C3.74489 6.54081 3.56267 8.74946 4.81257 10.224C6.06238 11.6985 8.27092 11.8807 9.74556 10.6309C9.8921 10.5067 10.0282 10.3706 10.1525 10.224C10.278 10.0769 10.2605 9.85603 10.1135 9.73042C9.96644 9.60491 9.74556 9.62243 9.61995 9.7694C8.61805 10.9432 6.85428 11.0824 5.68052 10.0804C4.50688 9.07855 4.3676 7.31477 5.36949 6.14102C5.90173 5.51766 6.68081 5.15931 7.50049 5.16102Z"
-                            fill="white" />
-                    </g>
-                    <defs>
-                        <clipPath id="clip0_2_13574">
-                            <rect width="14" height="14" fill="white" transform="translate(0.5 0.960938)" />
-                        </clipPath>
-                    </defs>
-                </svg>
+                <p class="text-[#fff] font-Montserrat text-[14px] font-normal tracking-[-0.28px]">©</p>
                 <p class="text-[#fff] font-Montserrat text-[13px] sm:text-[14px] font-normal tracking-[-0.28px]">FT
-                    PLANE 2022 All
+                    PLANE
+                    <script type="text/javascript">document.write(new Date().getFullYear());</script> All
                     right
                     reserved
                 </p>
