@@ -842,6 +842,10 @@ video {
   margin-top: 8px;
 }
 
+.mb-5{
+  margin-bottom: 1.25rem;
+}
+
 .box-border{
   box-sizing: border-box;
 }
@@ -3640,8 +3644,25 @@ video {
 }
 
 @media (min-width: 576px){
+  .sm\:my-0{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
   .sm\:mt-0{
     margin-top: 0px;
+  }
+
+  .sm\:mb-0{
+    margin-bottom: 0px;
+  }
+
+  .sm\:mt-5{
+    margin-top: 1.25rem;
+  }
+
+  .sm\:mt-\[50px\]{
+    margin-top: 50px;
   }
 
   .sm\:flex-row{
